@@ -21,14 +21,21 @@ ul {
 a {
     color: #080808;
 }
-
 .btn-secondary {
-    width: 60%;
+    width: 30%;
+}
+
+#applyFilter, #clearFilter {
+    width: 70%;
 }
 
 #carButton {
     width: 20%;
 }
+
+#name, #pwd {
+    width: 40%;
+} 
 
 @media(max-width: 750px) {    
     .btn {
@@ -36,6 +43,12 @@ a {
     }
     #carButton {
         width: 100%;
-    }    
+    }  
+    #applyFilter, #clearFilter {
+        width: 100%;
+    } 
+    #name, #pwd {
+        width: 100%;
+    } 
 }
 

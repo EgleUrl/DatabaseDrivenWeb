@@ -47,6 +47,12 @@ def filtered_cars():
         session['region'] = request.form.get('region')
         session['minPrice'] = request.form.get('minPrice')
         session['maxPrice'] = request.form.get('maxPrice')
+
+    # Checks for GET request and updates session (for images in index.html)
+    if request.method == 'GET':
+        session['make'] = request.args.get('make')
+        session['model'] = request.args.get('model')
+
         
     # Loads distinct values for all filters
     makes = Car.query.with_entities(Car.make).distinct().all()

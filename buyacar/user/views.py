@@ -22,8 +22,9 @@ def login():
     # Filters User database to find the user name
     user = User.query.filter_by(name=name).first()
     # Checks if user with that name or password was found
-    if not user or not check_password_hash(user.password, password):        
-        flash('Please check your login details and try again.')
+    if not user or not check_password_hash(user.password, password):  
+        if request.method == 'POST':      
+            flash('Please check your login details and try again.')
         return render_template('login.html') # if the user doesn't exist or password is wrong, reloads the page
     # Grabs logged user id
     login_user(user)

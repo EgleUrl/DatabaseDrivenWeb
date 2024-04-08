@@ -89,13 +89,14 @@ class User(UserMixin ,db.Model):
         return f'User {self.name}'
     
 class CarModelView(ModelView):
-    column_list = ('make', 'model', 'reg', 'colour', 'miles', 'price', 'dealer', 'town', 'telephone', 'description', 'region', 'picture', 'owner')
-    form_columns = ('make', 'model', 'reg', 'colour', 'miles', 'price', 'dealer', 'town', 'telephone', 'description', 'region', 'picture', 'client_id')
-    form_excluded_columns = ('carIndex')
+    column_list = ('carIndex','make', 'model', 'reg', 'colour', 'miles', 'price', 'dealer', 'town', 'telephone', 'description', 'region', 'picture', 'owner')
+    form_columns = ('carIndex','make', 'model', 'reg', 'colour', 'miles', 'price', 'dealer', 'town', 'telephone', 'description', 'region', 'picture', 'client_id')
+    column_searchable_list = ('carIndex', 'make', 'model', 'client_id')
+    
     
 class CarInlineModelForm(InlineFormAdmin):
-    form_columns = ('make', 'model', 'reg', 'colour', 'miles', 'price', 'dealer', 'town', 'telephone', 'description', 'region', 'picture')
-    form_excluded_columns = ('carIndex')
+    form_columns = ('carIndex','make', 'model', 'reg', 'colour', 'miles', 'price', 'dealer', 'town', 'telephone', 'description', 'region', 'picture')   
+    
 
 class ClientModelView(ModelView):
     column_list = ('name', 'surname', 'email', 'phone', 'address', 'town', 'postcode', 'purchase_date', 'cars')
