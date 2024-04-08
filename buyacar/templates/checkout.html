@@ -15,7 +15,7 @@
       <div class="row">
         <div class="col-lg-2 mt-4 mb-4">
           <div class="card bg-light"> 
-            <img class="card-img-top img-fluid rounded" src="{{ url_for('static', filename='JeepCherokeeWhite.png')}}" alt="Car image">       
+            <img class="card-img-top img-fluid rounded" src="{{ url_for('static', filename=car.make ~ car.model ~ '.png') }}" alt="{{ car.make }} {{ car.model }}">       
             <div class="card-body">        
                 <h4 class="card-title">{{ car.make }} {{ car.model }}</h4>
                 <p class="card-text">Car identification number: {{ car.carIndex }}</p>
