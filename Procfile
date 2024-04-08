@@ -1,1 +1,1 @@
-web: gunicorn buyacar:app
+web: gunicorn app:app
