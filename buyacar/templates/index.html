@@ -1,0 +1,261 @@
+{% extends "base.html" %}
+{% block title %}
+Home
+{% endblock %}
+{% block content %}
+
+<div class="mt-4"></div>
+<!-- Carousel -->
+<div id="demo" class="carousel slide carousel-fade" data-bs-ride="true">
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    
+        <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="../static/car11.png" alt="Silver car on a road" class="d-block rounded" style="width: 100%">
+        </div>
+        <div class="carousel-item">
+            <img src="../static/car22.png" alt="Black car surrounded by bushes" class="d-block rounded" style="width: 100%">
+        </div>
+        <div class="carousel-item">
+            <img src="../static/car33.png" alt="Woman driving a car" class="d-block rounded" style="width: 100%">
+        </div>
+    </div>
+    
+        <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+<div class="d-block text-center mt-4">
+<h2>Buy a car online with us</h2>
+</div>
+<div class="container-fluid text-center">
+    <div class="row">
+        <div class="col-sm-2 mt-2">
+            <a href="{{ url_for('core.cars') }}">
+                <img class="img-fluid rounded-circle" src="{{ url_for('static', filename='Kia.png') }}" alt="Kia logo">
+            </a>
+        </div>
+        <div class="col-sm-2 mt-2">
+            <a href="{{ url_for('core.cars') }}">
+                <img class="img-fluid rounded-circle" src="{{ url_for('static', filename='Honda.png')}}" alt="Honda logo">
+            </a>
+        </div>
+        <div class="col-sm-2 mt-2">
+            <a href="{{ url_for('core.cars') }}">
+                <img class="img-fluid" src="{{ url_for( 'static', filename='Peugeot.png')}}" alt="Peugeot logo">
+            </a>
+        </div>
+        <div class="col-sm-2 mt-2">
+            <a href="{{ url_for('core.cars') }}">
+                <img class="img-fluid" src="{{ url_for( 'static', filename='Bmw.png')}}" alt="BMW logo">
+            </a>
+        </div>
+        <div class="col-sm-2 mt-2">
+            <a href="{{ url_for('core.cars') }}">
+                <img class="img-fluid" src="{{ url_for( 'static', filename='Nissan.png')}}" alt="Nissan logo">
+            </a>
+        </div>
+        <div class="col-sm-2 mt-2">
+            <a href="{{ url_for('core.cars') }}">
+                <img class="img-fluid" src="{{ url_for( 'static', filename='Renault.png')}}" alt="Renault logo">
+            </a>
+        </div>
+    </div>
+</div>
+<div class="container-fluid text-center mt-4">
+    <a href="#demo1" class="text-reset" data-bs-toggle="collapse"><h4>All brands for sale</h4></a>
+    <div id="demo1" class="collapse">
+        <div class="row mt-4">
+            <div class="col-sm-2 d-block">
+                <p>Alfa Romeo</p>
+                <p>Austin</p>
+                <p>Bentley</p>
+                <p>BMW</p>
+                <p>Daewoo</p>
+            </div>
+            <div class="col-sm-2 d-block">
+                <p>Datsun</p>
+                <p>Fiat</p>
+                <p>Ford</p>
+                <p>Honda</p>
+                <p>Isuzu</p>
+            </div>
+            <div class="col-sm-2 d-block">
+                <p>Jaguar</p>
+                <p>Jeep</p>
+                <p>Kia</p>
+                <p>Landrover</p>
+                <p>Lexus</p>
+            </div>
+            <div class="col-sm-2 d-block">
+                <p>Lotus</p>
+                <p>Mazda</p>
+                <p>Mercedes</p>
+                <p>MG</p>
+            </div>
+            <div class="col-sm-2 d-block">
+                <p>Nissan</p>
+                <p>Peugeot</p>
+                <P>Renault</P>
+                <p>Rover</p>
+            </div>
+            <div class="col-sm-2 d-block">
+                <P>Toyota</P>
+                <p>Vauxhall</p>
+                <p>Volvo</p>
+                <p>VW</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="d-block mt-4">
+    <h2>We are here to help</h2>
+    <p>Finding a perfect car can be a stressful and time consuming activity. Many times it requires being knowledgeable.
+        Our team are dealing with clients requests from finding a car to contacting the dealer and to getting it straight to your door.
+    Just give us a call or write an email and we will take all your burden on us.</p>
+</div>
+<div class="d-block text-center mt-4">
+    <h2>Just PICK, CLICK, BUY</h2>
+</div>
+<div class="container-fluid text-center">
+    <div class="row">
+        <div class="col-md-3 mt-4 mx-auto">
+            <a href="{{ url_for('core.filtered_cars') }}">
+                <img class="img-fluid rounded" src="{{ url_for('static', filename='MercedesSL500Red.png')}}" alt="Red Mercedes SL 500">
+            </a>
+            <p>Mercedes Sl 500</p>
+        </div>
+        <div class="col-md-3 mt-4 mx-auto">
+            <a href="{{ url_for('core.filtered_cars') }}">
+                <img class="img-fluid rounded" src="{{ url_for('static', filename='JeepCherokeeWhite.png')}}" alt="White Jeep Cherokee">
+            </a>
+            <p>Jeep Cherokee</p>
+        </div>
+        <div class="col-md-3 mt-4 mx-auto">
+            <a href="{{ url_for('core.filtered_cars') }}">
+                <img class="img-fluid rounded" src="{{ url_for('static', filename='LexusLs400Grey.png')}}" alt="Grey Lexus Ls 400">
+            </a>
+            <p>Lexus Ls 400</p>
+        </div>
+        <div class="col-md-3 mt-4 mx-auto">
+            <a href="{{ url_for('core.filtered_cars') }}">
+                <img class="img-fluid rounded" src="{{ url_for('static', filename='Peugeot405Pink.png')}}" alt="Pink Peugeot 405gt">
+            </a>
+            <p>Peugeot 405 Gt</p>
+        </div>
+    </div>
+</div>
+<div class="d-block text-center mt-4">
+    <h2>Over 1000 cars in stock</h2>
+</div>
+<div class="container-fluid text-center mt-4">
+    <a href="#demo2" class="text-reset" data-bs-toggle="collapse"><h4>Find dealer near your place</h4></a>
+    <div id="demo2" class="collapse">
+        <div class="row mt-4">
+            <div class="col-sm-2 d-block">
+                <p>Barnstaple</p>
+                <p>Birmingham</p>
+                <p>Bristol</p>
+                <p>Cambridge</p>
+                <p>Canterbury</p>
+                <p>Chelmsford</p>
+                <p>Chester</p>
+            </div>
+            <div class="col-sm-2 d-block">
+                <p>Clacton on Sea</p>
+                <p>Clapham</p>
+                <p>Colchester</p>
+                <p>Coventry</p>
+                <p>Crewe</p>
+                <p>Croydon</p>
+                <p>Dover</p>
+            </div>
+            <div class="col-sm-2 d-block">
+                <p>Edinburgh</p>
+                <p>Exeter</p>
+                <p>Felixstowe</p>
+                <p>Glasgow</p>
+                <p>Gloucester</p>
+                <p>Gravesend</p>
+                <p>Inverness</p>
+            </div>
+            <div class="col-sm-2 d-block">
+                <p>Isle of Man</p>
+                <p>Kingsbridge</p>
+                <p>Kings Lynn</p>
+                <p>Liverpool</p>
+                <p>Maldon</p>
+                <p>Manchester</p>
+                <p>Middlesbrough</p>
+            </div>
+            <div class="col-sm-2 d-block">
+                <p>Newcastle</p>
+                <p>Nottingham</p>
+                <P>Oxford</P>
+                <p>Peterborough</p>
+                <p>Plymouth</p>
+                <p>Portree</p>
+                <p>Portsmouth</p>
+            </div>
+            <div class="col-sm-2 d-block">
+                <P>Southport</P>
+                <p>Stockton</p>
+                <p>Swindon</p>
+                <p>Torquay</p>
+                <p>Tunbridge Wells</p>
+                <p>Watford</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="d-block mt-4">
+    <h2>What our customers are saying</h2>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-4 mt-2 mx-auto">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Ann White</h4>
+                    <p class="card-text">I have now received the delivery of my vehicle and I love it. If you are
+                        thinking of buying from BuyaCar, 100% worth giving it a trial. Thank you BuyaCar.<br>
+
+                        This review is based on my recent experience and if anything changes I would be back to update.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 mt-2 mx-auto">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">John Brown</h4>
+                    <p class="card-text">New second hand car from BuyaCar
+                        I bought a lovely secondhand car from BuyaCar! The service was excellent and speedy!<br>
+                        The staff were all super friendly and helpful!<br>
+                        Highly recommend buying from them!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 mt-2 mb-4 mx-auto">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Thomas Black</h4>
+                    <p class="card-text">Slick platform to find my car and register interest.
+                        Very easy to deal with, with regular updates throughout the purchase.
+                        Had a minor issue with one of the keys on delivery (not BuyaCar fault),
+                        which was dealt with immediately with no quibble. Would recommend.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

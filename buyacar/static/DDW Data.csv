@@ -1,0 +1,1001 @@
+carIndex,make,model,reg,colour,miles,price,dealer,town,telephone,description,region
+1,Isuzu,Trooper,K,green,65000,9995,Hudson Used Cars,Clacton on Sea,01255 423161,VGC,E
+2,Jeep,Cherokee,M,black,34000,15750,Cars R Us,Kingsbridge,01548 531817,aircon,W
+3,Jeep,Cherokee,K,red,45000,7995,Off Road Sales,Torquay,01803 323014,aircon,SW
+4,Kia,Pride,K,white,36000,1850,Rook Used Cars,Exeter,01392 460753,VGC,SW
+5,Kia,Pride,M,blue,14000,3400,South West Cars,Plymouth,01752 561797,3 door,SW
+6,Kia,Pride,P,red,28000,4150,Rook Used Cars,Exeter,01392 460753,3 door,SW
+7,Kia,Pride,R,pale blue,1650,5700,Hansen,Torquay,01803 882597,3 door,SW
+8,Lexus,LS 400,J,blue,56000,14500,Weldit Used Cars,Inverness,01463 741514,VGC,N
+9,Lexus,LS400,J,grey,102000,13950,Bodgit Quality Cars,Southport,01704 567854,aircon,NW
+10,Lotus,Elan,V,yellow,100000,4250,Sports Cars,Nottingham,01158 678954,MOT,C
+11,Lotus,Elite,X,black,80000,2900,Sports Cars,Nottingham,01158 678954,MOT,C
+12,Lotus,Eclat,A,red,71000,2750,GMV ltd,Gloucester,01452 732145,VGC,W
+13,VW,Golf Gti,B,grey,102000,700,Weldit Used Cars,Inverness,01463 741514,MOT,N
+14,VW,Passat,Y,blue,122000,295,Tidy Cars,Peterborough,01733 231456,VGC,E
+15,Daewoo,Espero,P,pink,3500,4500,Hudson Used Cars,Clacton on Sea,01255 423161,aircon,E
+16,Daewoo,Nexia,N,green,65000,7499,Bodgit Quality Cars,Southport,01704 567854,MOT,NW
+17,Daewoo,Nexia,P,yellow,10000,6300,Prestige Carriages,Tunbridge Wells,01892 531248,aircon,SE
+18,VW,Polo,D,red,85000,1050,Futter's Farm Vehicles,Kings Lynn,01533 778965,VGC,E
+19,Volvo,360,A,grey,125000,495,Skye Wheels,Portree,01487 456321,MOT,N
+20,Volvo,850,L,green,67300,10300,Fixitt Car Dealers,Portree,01478 576894,MOT,N
+21,Vauxhall,Corsa,P,green,35000,7000,Tidy Cars,Peterborough,01733 231456,3 door,E
+22,Vauxhall,Cavalier,F,white,86000,1250,Tidy Cars,Peterborough,01733 231456,VGC,E
+23,Vauxhall,Cavalier,F,red,56000,1600,Stephenson Ltd,Chelmsford,01245 678954,MOT,E
+24,Vauxhall,Corsa,M,blue,18000,8500,Fixitt Car Dealers,Portree,01478 576894,VGC,N
+25,Ford,Escort,N,red,18000,10500,Weldit Used Cars,Inverness,01463 741514,VGC,N
+26,Ford,Escort,M,blue,21000,8000,Tidy Cars,Peterborough,01733 231456,aircon,E
+27,Ford,Escort,G,white,65000,1550,Hudson Used Cars,Clacton on Sea,01255 423161,aircon,E
+28,Ford,Escort,H,green,55000,2000,Bodgit Quality Cars,Southport,01704 567854,VGC,NW
+29,Ford,Escort,K,yellow,85000,1250,Prestige Carriages,Tunbridge Wells,01892 531248,3 door,SE
+30,Ford,Escort,N,red,24000,12550,Futter's Farm Vehicles,Kings Lynn,01533 778965,3 door,E
+31,Ford,Escort,M,pink,10000,11995,Skye Wheels,Portree,01487 456321,3 door,N
+32,Ford,Fiesta,D,white,65000,999,Fixitt Car Dealers,Portree,01478 576894,VGC,N
+33,Ford,Fiesta,D,grey,45000,1250,Tidy Cars,Peterborough,01733 231456,aircon,E
+34,Ford,Fiesta,F,red,35000,2199,Tidy Cars,Peterborough,01733 231456,MOT,E
+35,Ford,Fiesta,N,blue,12000,7500,Stephenson Ltd,Chelmsford,01245 678954,MOT,E
+36,Ford,Fiesta,M,white,27000,7599,Fixitt Car Dealers,Portree,01478 576894,VGC,N
+37,Ford,Fiesta,P,green,12000,8599,Hudson Used Cars,Clacton on Sea,01255 423161,MOT,E
+38,Ford,Fiesta,P,yellow,10000,11500,South West Cars,Plymouth,01752 561797,VGC,SW
+39,Ford,Fiesta,N,red,19000,8599,Off Road Sales,Torquay,01803 323014,aircon,SW
+40,Ford,Fiesta,M,pink,6000,7999,Rook Used Cars,Exeter,01392 460753,MOT,SW
+41,Ford,Fiesta,D,white,45000,1100,Hansen,Torquay,01803 882597,aircon,SW
+42,Ford,Fiesta,D,grey,45400,999,Rook Used Cars,Exeter,01392 460753,VGC,SW
+64,Ford,Mondeo,M,green,24000,9999,Wrights Quality Cars,Liverpool,01514 567843,MOT,NW
+65,Ford,Mondeo,P,yellow,11000,8000,Nixons Used Autos,Liverpool,01514 561235,aircon,NW
+66,Ford,Mondeo,P,red,34000,8999,Daves Used Cars,Gravesend,01474 876098,VGC,SE
+67,Ford,Mondeo,P,pink,22000,11999,Wrights Quality Cars,Liverpool,01514 567843,MOT,NW
+68,Ford,Mondeo,M,white,28000,15500,Nixons Used Autos,Liverpool,01514 561235,MOT,NW
+69,Peugeot,106,N,grey,18000,7500,Daves Used Cars,Gravesend,01474 876098,3 door,SE
+70,Peugeot,106,N,red,21000,7500,Wrights Quality Cars,Liverpool,01514 567843,VGC,NW
+71,Peugeot,106,P,blue,13000,8550,Nixons Used Autos,Liverpool,01514 561235,MOT,NW
+72,Peugeot,106,P,white,11000,7500,Acme Autos,Colchester,01206 452345,VGC,E
+73,Peugeot,306,M,green,25500,5400,Acme Autos,Colchester,01206 452345,VGC,E
+74,Peugeot,306,M,yellow,15400,4999,University Motors,Cambridge,01223 768956,aircon,C
+75,Peugeot,306,L,red,27000,3999,University Motors,Cambridge,01223 768956,aircon,C
+76,Peugeot,405,L,pink,45000,1750,Smith Autos,Cambridge,01223 654318,VGC,C
+77,Peugeot,405,G,white,65500,1500,Station Cars,Manchester,01617 453678,3 door,NW
+78,Peugeot,405,J,grey,35000,1250,Station Cars,Manchester,1618 453678,3 door,NW
+79,Peugeot,605,L,red,85000,6500,Smith Autos,Cambridge,01223 654318,3 door,C
+80,Peugeot,205,D,blue,65500,750,Smith Autos,Cambridge,01223 654318,VGC,C
+81,Peugeot,205,D,white,55400,500,Daves Used Cars,Gravesend,01474 876098,aircon,SE
+82,Peugeot,205,C,green,35000,550,Wrights Quality Cars,Liverpool,01514 567843,MOT,NW
+83,Peugeot,205,F,yellow,30500,1100,Nixons Used Autos,Liverpool,01514 561235,MOT,NW
+84,Peugeot,406,P,red,18000,13500,Daves Used Cars,Gravesend,01474 876098,VGC,SE
+85,Peugeot,406,P,pink,22000,10500,Wrights Quality Cars,Liverpool,01514 567843,MOT,NW
+86,Renault,11,G,white,65500,750,Nixons Used Autos,Liverpool,01514 561235,VGC,NW
+87,Renault,11,H,grey,35400,1250,Daves Used Cars,Gravesend,01474 876098,aircon,SE
+88,Renault,11,J,red,48500,1250,Wrights Quality Cars,Liverpool,01514 567843,MOT,NW
+89,Renault,11,K,blue,25000,1100,Nixons Used Autos,Liverpool,01514 561235,aircon,NW
+90,Renault,21,L,white,85000,1299,Acme Autos,Colchester,01206 452345,VGC,E
+91,Renault,21,D,green,105000,750,Acme Autos,Colchester,01206 452345,MOT,E
+92,Renault,21,F,yellow,25500,899,University Motors,Cambridge,01223 768956,MOT,C
+93,Renault,Clio,G,red,64500,1250,University Motors,Cambridge,01223 768956,3 door,C
+94,Renault,Clio,N,pink,12000,7599,Smith Autos,Cambridge,01223 654318,VGC,C
+95,Renault,Clio,N,white,10500,8500,Weldit Used Cars,Inverness,01463 741514,MOT,N
+96,Renault,Clio,M,grey,6500,7500,Tidy Cars,Peterborough,01733 231456,VGC,E
+97,Renault,Clio,P,red,15500,9500,Hudson Used Cars,Clacton on Sea,01255 423161,VGC,E
+98,Renault,Clio,F,blue,35400,750,Bodgit Quality Cars,Southport,01704 567854,aircon,NW
+99,Renault,Espace,F,white,105500,650,Weldit Used Cars,Inverness,01463 741514,aircon,N
+100,Renault,Espace,G,green,75600,1250,Tidy Cars,Peterborough,01733 231456,VGC,E
+101,Renault,Espace,H,yellow,35650,1199,Hudson Used Cars,Clacton on Sea,01255 423161,3 door,E
+102,BMW,321,D,red,125000,2199,Bodgit Quality Cars,Southport,01704 567854,3 door,NW
+103,BMW,316,D,pink,87000,2500,Port Erin,Isle of Man,01624 453678,3 door,NW
+104,BMW,316,D,white,45000,2000,Weldit Used Cars,Inverness,01463 741514,VGC,N
+105,BMW,316,F,grey,92500,2599,Tidy Cars,Peterborough,01733 231456,aircon,E
+106,BMW,321,F,red,44200,2600,Hudson Used Cars,Clacton on Sea,01255 423161,MOT,E
+43,Ford,Fiesta,C,red,85000,750,Stephenson Ltd,Chelmsford,01245 678546,MOT,E
+44,Ford,Fiesta,H,blue,58000,2500,Sports Cars,Nottingham,01158 678954,MOT,C
+45,Ford,Fiesta,H,white,35000,2599,Sports Cars,Nottingham,01158 678954,3 door,C
+46,Ford,Sierra,J,green,65000,2500,Daves Used Cars,Gravesend,01474 876098,VGC,SE
+47,Ford,Sierra,J,yellow,38000,1999,Wrights Quality Cars,Liverpool,01514 567843,MOT,NW
+48,Ford,Sierra,J,red,24000,2500,Nixons Used Autos,Liverpool,01514 561235,VGC,NW
+49,Ford,Sierra,G,pink,66000,2200,Daves Used Cars,Gravesend,01474 876098,VGC,SE
+50,Ford,Sierra,H,white,35000,2100,Wrights Quality Cars,Liverpool,01514 567843,aircon,NW
+51,Ford,Sierra,H,grey,37500,2099,Nixons Used Autos,Liverpool,01514 561235,aircon,NW
+52,Ford,Sierra,L,red,12000,3500,Daves Used Cars,Gravesend,01474 876098,VGC,SE
+53,Ford,Sierra,D,blue,29000,750,Wrights Quality Cars,Liverpool,01514 567843,3 door,NW
+54,Ford,Sierra,D,white,85000,950,Nixons Used Autos,Liverpool,01514 561235,3 door,NW
+55,Ford,Sierra,F,green,52000,1100,Acme Autos,Colchester,01206 452345,3 door,E
+56,Ford,Sierra,H,yellow,52500,2100,Acme Autos,Colchester,01206 452345,VGC,E
+57,Ford,Sierra,H,red,49500,2100,University Motors,Cambridge,01223 768956,aircon,C
+58,Ford,Sierra,J,pink,85000,2500,University Motors,Cambridge,01223 768956,MOT,C
+59,Ford,Mondeo,N,white,12000,16000,Smith Autos,Cambridge,01223 654318,MOT,C
+60,Ford,Mondeo,N,grey,22000,14500,Station Cars,Manchester,01617 453678,VGC,NW
+61,Ford,Mondeo,N,red,36000,12000,Station Cars,Manchester,1618 453678,MOT,NW
+62,Ford,Mondeo,N,blue,19000,16500,Smith Autos,Cambridge,01223 654318,VGC,C
+63,Ford,Mondeo,M,white,19500,10999,Daves Used Cars,Gravesend,01474 876098,aircon,SE
+107,BMW,316,G,blue,67500,3599,Bodgit Quality Cars,Southport,01704 567854,MOT,NW
+108,BMW,316,G,white,25250,3400,Fixitt Car Dealers,Portree,01478 576894,VGC,N
+109,Alfa Romeo,33,H,green,45600,3400,Tidy Cars,Peterborough,01733 231456,MOT,E
+110,Alfa Romeo,33,H,yellow,42000,3450,Tidy Cars,Peterborough,01733 231456,VGC,E
+111,Alfa Romeo,33,J,red,35500,4400,Fixitt Car Dealers,Portree,01478 576894,aircon,N
+112,Alfa Romeo,33,J,pink,24525,4650,Hudson Used Cars,Clacton on Sea,01255 423161,MOT,E
+113,Alfa Romeo,164,N,white,17500,15500,Off Road Sales,Torquay,01803 323014,aircon,W
+114,Alfa Romeo,164,M,grey,12500,13500,Rook Used Cars,Exeter,01392 460753,VGC,SW
+115,Alfa Romeo,164,N,red,18500,14500,Rook Used Cars,Exeter,01392 460753,MOT,SW
+116,Honda,Accord,P,blue,12500,12500,Sports Cars,Nottingham,01158 678954,MOT,C
+117,Honda,Accord,P,white,22000,9999,Sports Cars,Nottingham,01158 678954,3 door,C
+118,Honda,Accord,G,green,85500,3500,Daves Used Cars,Gravesend,01474 876098,VGC,SE
+119,Honda,Accord,H,yellow,25500,3550,Wrights Quality Cars,Liverpool,01514 567843,MOT,NW
+120,Honda,Civic,J,red,35500,4500,Nixons Used Autos,Liverpool,01514 561235,VGC,NW
+121,Honda,Civic,K,pink,45400,2550,Daves Used Cars,Gravesend,01474 876098,VGC,SE
+122,Honda,Civic,J,white,12500,3999,Wrights Quality Cars,Liverpool,01514 567843,aircon,NW
+123,Honda,Civic,K,grey,22500,2550,Nixons Used Autos,Liverpool,01514 561235,aircon,NW
+124,Fiat,Uno,H,red,12500,995,Daves Used Cars,Gravesend,01474 876098,VGC,SE
+125,Fiat,Uno,P,blue,8500,7500,Wrights Quality Cars,Liverpool,01514 567843,3 door,NW
+126,Fiat,Uno,G,white,35000,850,Nixons Used Autos,Liverpool,01514 561235,3 door,NW
+127,Fiat,Uno,G,green,35550,899,Acme Autos,Colchester,01206 452345,3 door,E
+128,Fiat,Tipo,J,yellow,21540,2000,Acme Autos,Colchester,01206 452345,VGC,E
+129,Fiat,Tipo,G,red,11500,1050,University Motors,Cambridge,01223 768956,aircon,C
+130,Fiat,Tipo,L,pink,8500,1850,University Motors,Cambridge,01223 768956,MOT,C
+131,Fiat,Tipo,L,white,22500,2000,Smith Autos,Cambridge,01223 654318,MOT,C
+132,Fiat,Tipo,G,grey,35500,2100,Station Cars,Manchester,01617 453678,VGC,N
+133,Fiat,Panda,C,red,12500,300,Station Cars,Manchester,1618 453678,MOT,NW
+134,Fiat,Panda,C,blue,12000,550,Smith Autos,Cambridge,01223 654318,VGC,C
+135,Fiat,Panda,D,white,22500,450,Smith Autos,Cambridge,01223 654318,aircon,C
+136,Fiat,Panda,E,green,65500,999,Wrights Quality Cars,Liverpool,01514 567843,MOT,NW
+137,Fiat,Panda,E,yellow,12400,899,Wrights Quality Cars,Liverpool,01514 567843,aircon,NW
+138,Nissan,Primera,N,red,26500,12500,Wrights Quality Cars,Liverpool,01514 567843,VGC,NW
+139,Nissan,Primera,M,pink,32500,13500,Acme Autos,Colchester,01206 452345,MOT,E
+140,Nissan,Primera,P,white,24500,15500,Acme Autos,Colchester,01206 452345,MOT,E
+141,Nissan,Bluebird,G,grey,95500,1500,Nixons Used Autos,Liverpool,01514 561235,3 door,NW
+142,Nissan,Bluebird,H,red,45600,2500,Nixons Used Autos,Liverpool,01514 561235,VGC,NW
+143,Nissan,Bluebird,G,red,55700,1750,Nixons Used Autos,Liverpool,01514 561235,MOT,NW
+144,Nissan,Sunny,G,white,33000,899,Nixons Used Autos,Liverpool,01514 561235,VGC,NW
+145,Nissan,Sunny,C,blue,23000,750,Nippon Sales,Maldon,01621 456324,MOT,E
+146,Nissan,Sunny,C,lemon,15000,750,Nippon Sales,Maldon,01621 456324,VGC,E
+147,Nissan,Sunny,D,orange,76900,799,Nippon Sales,Maldon,01621 456324,VGC,E
+148,Landrover,Discovery,G,green,45000,12999,The Car Shop,Chester,01344 768970,VGC,NW
+149,VW,Passat,L,silver,23000,1299,Frank's Car Sales,Stockton,01677 434210,MOT,NE
+150,Jaguar,XJS,M,blue,109000,6799,Car-U-Like,Portsmouth,01233 872222,VGC,S
+151,Toyota,Landcruiser,R,white,98000,5499,Wheels of Croydon,Croydon,0181 788 5333,MOT,S
+152,Mercedes,E220,S,red,34000,3299,Bristol Motors,Bristol,0117 455 3211,VGC,W
+153,Landrover,Discovery,G,green,45000,1599,McGovern's Cars,Glasgow,0141 544 9519,VGC,N
+154,VW,Passat,L,silver,23000,17899,Reliable Harry's,Clapham,0171 556 3288,5-door,S
+155,Jaguar,XJS,M,blue,109000,7899,Dalton Car Sales,Middlesbrough,01155 545889,Immac,NE
+157,Mercedes,E220,S,red,34000,6299,Prestige Vehicles,Edinburgh,0131 766 4521,Lady owner,N
+159,VW,Passat,L,silver,23000,18499,Nippon Sales,Maldon,01621 456324,Stereo,E
+160,Jaguar,XJS,M,blue,109000,6499,The Car Shop,Chester,01344 768970,1 owner,NW
+161,Toyota,Landcruiser,R,white,98000,8399,Frank's Car Sales,Stockton,01677 434210,Any trial,NE
+162,Mercedes,E220,S,red,34000,1250,Car-U-Like,Portsmouth,01233 872222,Used daily,S
+163,Landrover,Series I,R,black,56000,7525,Wheels of Croydon,Croydon,0181 788 5333,T&T,S
+164,VW,Sirocco,S,bronze,34000,8225,Bristol Motors,Bristol,0117 455 3211,Radio,W
+165,Jaguar,XJ6,G,yellow,44000,6199,McGovern's Cars,Glasgow,0141 544 9519,VGC,N
+166,Toyota,Previa,L,orange,55000,7799,Reliable Harry's,Clapham,0171 556 3288,VGC,S
+167,Mercedes,SL500,M,gold,66000,3425,Dalton Car Sales,Middlesbrough,01155 545889,5-door,NE
+169,BMW,328i,G,green,56000,5699,Prestige Vehicles,Edinburgh,0131 766 4521,MOT,N
+171,Rover,Vitesse,S,blue,44000,6675,Nippon Sales,Maldon,01621 456324,FSH,E
+172,Austin,Montego,S,white,55000,2380,The Car Shop,Chester,01344 768970,Stereo,NW
+173,Daewoo,Subina,R,blue,88000,75,Frank's Car Sales,Stockton,01677 434210,1 owner,NE
+174,BMW,328i,R,lemon,23000,8600,Car-U-Like,Portsmouth,01233 872222,Any trial,S
+175,Fiat,Punto,R,orange,34000,25,Wheels of Croydon,Croydon,0181 788 5333,Used daily,S
+176,Rover,3500i,P,green,33000,6200,Bristol Motors,Bristol,0117 455 3211,T&T,W
+177,Austin,Montego,N,silver,39000,125,McGovern's Cars,Glasgow,0141 544 9519,Radio,N
+178,Daewoo,Subina,L,blue,41000,790,Reliable Harry's,Clapham,0171 556 3288,Any trial,S
+179,BMW,525i,P,white,42000,12999,Dalton Car Sales,Middlesbrough,01155 545889,Used daily,NE
+181,Rover,Vitesse,R,green,57000,3299,Prestige Vehicles,Edinburgh,0131 766 4521,Radio,N
+183,Daewoo,Subina,L,blue,51000,1299,Nippon Sales,Maldon,01621 456324,MOT,E
+184,BMW,728 SE,K,white,62000,34000,The Car Shop,Chester,01344 768970,VGC,NW
+185,Fiat,Punto,K,red,103000,5600,Frank's Car Sales,Stockton,01677 434210,MOT,NE
+186,Rover,3500i,L,green,93000,3499,Car-U-Like,Portsmouth,01233 872222,VGC,S
+187,Austin,Montego,P,silver,21000,2899,Wheels of Croydon,Croydon,0181 788 5333,VGC,S
+188,Daewoo,Subina,N,blue,17000,3450,Bristol Motors,Bristol,0117 455 3211,5-door,W
+189,BMW,525i,R,lemon,14000,4400,McGovern's Cars,Glasgow,0141 544 9519,Immac,N
+190,Fiat,Punto,S,orange,88000,4650,Reliable Harry's,Clapham,0171 556 3288,MOT,S
+191,Rover,Vitesse,S,green,82000,15500,Dalton Car Sales,Middlesbrough,01155 545889,Lady owner,NE
+193,Datsun,Sunny,P,blue,40000,14500,Prestige Vehicles,Edinburgh,0131 766 4521,Stereo,N
+195,Nissan,Primera,M,red,13000,9999,Nippon Sales,Maldon,01621 456324,Any trial,E
+196,Nissan,Micra,L,green,77000,3500,The Car Shop,Chester,01344 768970,Used daily,NW
+197,Volvo,V70,K,silver,53000,3550,Frank's Car Sales,Stockton,01677 434210,T&T,NE
+198,Nissan,Cherry,H,blue,73000,4500,Car-U-Like,Portsmouth,01233 872222,Radio,S
+199,Mazda,323i,G,white,89000,2550,Wheels of Croydon,Croydon,0181 788 5333,VGC,S
+200,Mazda,MR2,H,red,97000,3999,Bristol Motors,Bristol,0117 455 3211,VGC,W
+201,MG,Midget,K,green,12000,2550,McGovern's Cars,Glasgow,0141 544 9519,5-door,N
+202,MG,Metro,L,silver,19000,995,Reliable Harry's,Clapham,0171 556 3288,Immac,S
+203,MG,Roadster,P,blue,10000,7500,Dalton Car Sales,Middlesbrough,01155 545889,MOT,NE
+205,Bentley,Turbo,R,orange,39000,899,Prestige Vehicles,Edinburgh,0131 766 4521,FSH,N
+207,Vauxhall,Astra,S,silver,42000,1050,Nippon Sales,Maldon,01621 456324,1 owner,E
+208,Vauxhall,Carlton,S,blue,46000,1850,The Car Shop,Chester,01344 768970,Any trial,NW
+209,Vauxhall,Omega,N,white,57000,2000,Frank's Car Sales,Stockton,01677 434210,Used daily,NE
+210,Vauxhall,Frontera,N,red,58000,2100,Car-U-Like,Portsmouth,01233 872222,T&T,S
+211,Vauxhall,Nova,N,green,51000,300,Wheels of Croydon,Croydon,0181 788 5333,Radio,S
+212,Vauxhall,Tigre,P,silver,62000,550,Bristol Motors,Bristol,0117 455 3211,Any trial,W
+213,Vauxhall,Cavalier,M,blue,103000,450,McGovern's Cars,Glasgow,0141 544 9519,Used daily,N
+214,Vauxhall,Vectra,M,white,93000,999,Reliable Harry's,Clapham,0171 556 3288,T&T,S
+215,Vauxhall,Senator,S,red,21000,899,Dalton Car Sales,Middlesbrough,01155 545889,Radio,NE
+217,Vauxhall,Astra,R,silver,14000,13500,Prestige Vehicles,Edinburgh,0131 766 4521,Very fast,N
+219,Nissan,Primera,D,lemon,82000,1500,Wrights Quality Cars,Liverpool,01514 567843,MOT,NW
+220,Nissan,Micra,F,orange,49000,2500,Nixons Used Autos,Liverpool,01514 561235,MOT,NW
+221,Volvo,V70,G,green,40000,1750,Daves Used Cars,Gravesend,01474 876098,VGC,SE
+222,Nissan,Cherry,H,silver,16000,899,Wrights Quality Cars,Liverpool,01514 567843,MOT,NW
+223,Mazda,323i,J,blue,13000,750,Nixons Used Autos,Liverpool,01514 561235,VGC,NW
+224,Mazda,MR2,J,white,77000,750,Daves Used Cars,Gravesend,01474 876098,aircon,SE
+225,MG,Midget,K,red,53000,799,Wrights Quality Cars,Liverpool,01514 567843,MOT,NW
+226,MG,Metro,L,green,73000,12999,Nixons Used Autos,Liverpool,01514 561235,aircon,NW
+227,MG,Roadster,K,silver,89000,1299,Acme Autos,Colchester,01206 452345,VGC,E
+228,Bentley,Mulsanne,L,blue,97000,6799,Acme Autos,Colchester,01206 452345,MOT,E
+229,Bentley,Turbo,P,white,12000,5499,University Motors,Cambridge,01223 768956,MOT,C
+230,Vauxhall,Cavalier,N,red,19000,3299,University Motors,Cambridge,01223 768956,3 door,C
+231,Vauxhall,Astra,R,green,10000,1599,Smith Autos,Cambridge,01223 654318,VGC,C
+232,Vauxhall,Carlton,S,silver,94000,17899,Weldit Used Cars,Inverness,01463 741514,MOT,N
+233,Vauxhall,Omega,S,white,39000,7899,Tidy Cars,Peterborough,01733 231456,VGC,E
+234,Vauxhall,Frontera,R,red,41000,3499,Hudson Used Cars,Clacton on Sea,01255 423161,VGC,E
+235,Vauxhall,Nova,P,green,42000,6299,Bodgit Quality Cars,Southport,01704 567854,aircon,NW
+236,Vauxhall,Tigre,G,silver,46000,1699,Weldit Used Cars,Inverness,01463 741514,aircon,N
+237,Vauxhall,Cavalier,L,blue,57000,18499,Tidy Cars,Peterborough,01733 231456,VGC,E
+238,Vauxhall,Vectra,M,white,58000,6499,Hudson Used Cars,Clacton on Sea,01255 423161,3 door,E
+239,Vauxhall,Senator,R,red,51000,8399,Bodgit Quality Cars,Southport,01704 567854,3 door,NW
+240,Vauxhall,Vectra,S,green,62000,1250,Port Erin,Isle of Man,01624 453678,3 door,NW
+241,Vauxhall,Astra,G,silver,103000,7525,Weldit Used Cars,Inverness,01463 741514,VGC,N
+242,Vauxhall,Astra,L,blue,93000,8225,Tidy Cars,Peterborough,01733 231456,aircon,E
+243,VW,Golf,M,white,21000,6199,Hudson Used Cars,Clacton on Sea,01255 423161,MOT,E
+244,VW,Jetta,R,red,17000,7799,Bodgit Quality Cars,Southport,01704 567854,MOT,NW
+245,VW,Passat,S,green,14000,3425,Fixitt Car Dealers,Portree,01478 576894,VGC,N
+246,VW,Golf,G,silver,88000,4500,Tidy Cars,Peterborough,01733 231456,MOT,E
+247,VW,Polo,L,blue,82000,5699,Tidy Cars,Peterborough,01733 231456,VGC,E
+248,VW,Golf,M,white,49000,8275,Fixitt Car Dealers,Portree,01478 576894,aircon,N
+249,VW,Polo,R,red,40000,6675,Hudson Used Cars,Clacton on Sea,01255 423161,MOT,E
+250,Renault,Megane,S,green,16000,2380,Off Road Sales,Torquay,01803 323014,aircon,W
+251,Renault,Clio,R,silver,13000,75,Rook Used Cars,Exeter,01392 460753,VGC,SW
+252,Renault,Safrane,S,blue,77000,8600,Rook Used Cars,Exeter,01392 460753,MOT,SW
+253,Renault,Laguna,G,white,53000,25,Sports Cars,Nottingham,01158 678954,MOT,C
+254,Renault,Clio,L,red,73000,6200,Sports Cars,Nottingham,01158 678954,3 door,C
+255,Renault,Megane,M,green,89000,125,Daves Used Cars,Gravesend,01474 876098,VGC,SE
+256,Renault,Clio,P,silver,97000,790,Wrights Quality Cars,Liverpool,01514 567843,MOT,NW
+257,Renault,Safrane,G,blue,12000,12999,Nixons Used Autos,Liverpool,01514 561235,VGC,NW
+258,Renault,Laguna,R,white,19000,4500,Daves Used Cars,Gravesend,01474 876098,VGC,SE
+259,Renault,Clio,S,red,10000,3299,Wrights Quality Cars,Liverpool,01514 567843,aircon,NW
+260,VW,Golf,S,green,94000,830,Nixons Used Autos,Liverpool,01514 561235,aircon,NW
+261,VW,Jetta,R,silver,39000,1299,Daves Used Cars,Gravesend,01474 876098,VGC,SE
+262,VW,Passat,R,blue,41000,34000,Wrights Quality Cars,Liverpool,01514 567843,3 door,NW
+263,VW,Golf,R,white,42000,5600,Nixons Used Autos,Liverpool,01514 561235,3 door,NW
+264,VW,Polo,P,red,46000,3499,Acme Autos,Colchester,01206 452345,3 door,E
+265,VW,Golf,N,green,57000,2899,Acme Autos,Colchester,01206 452345,VGC,E
+266,VW,Polo,L,silver,58000,3450,University Motors,Cambridge,01223 768956,aircon,C
+267,Peugeot,205 XE,P,blue,51000,4400,University Motors,Cambridge,01223 768956,MOT,C
+268,Peugeot,306 XL,N,white,62000,4650,Smith Autos,Cambridge,01223 654318,MOT,C
+269,Peugeot,205 D,R,red,103000,15500,Station Cars,Manchester,01617 453678,VGC,N
+270,Peugeot,205 GTI,S,green,93000,13500,Station Cars,Manchester,1618 453678,MOT,NW
+271,Peugeot,405 GT,L,silver,21000,14500,Smith Autos,Cambridge,01223 654318,VGC,C
+272,Peugeot,605 XS,K,blue,17000,12500,Smith Autos,Cambridge,01223 654318,aircon,C
+273,Peugeot,306 XD,K,grey,14000,9999,Wrights Quality Cars,Liverpool,01514 567843,MOT,NW
+274,Peugeot,505 L,L,red,88000,3500,Wrights Quality Cars,Liverpool,01514 567843,aircon,NW
+275,Peugeot,106 XL,P,blue,82000,3550,Wrights Quality Cars,Liverpool,01514 567843,VGC,NW
+276,Mercedes,E320,N,white,49000,4500,Acme Autos,Colchester,01206 452345,MOT,E
+277,Mercedes,Kompressor,R,green,40000,2550,Acme Autos,Colchester,01206 452345,MOT,E
+278,Mercedes,SL300,S,yellow,16000,3999,Nixons Used Autos,Liverpool,01514 561235,3 door,NW
+279,Mercedes,SL500,S,red,13000,2550,Nixons Used Autos,Liverpool,01514 561235,VGC,NW
+280,Mercedes,A200,R,pink,77000,995,Nixons Used Autos,Liverpool,01514 561235,MOT,NW
+281,Mercedes,C320,P,white,53000,7500,Nixons Used Autos,Liverpool,01514 561235,VGC,NW
+282,Mercedes,C220,L,grey,73000,850,Nippon Sales,Maldon,01621 456324,MOT,E
+283,Peugeot,205 XE,M,red,89000,899,Nippon Sales,Maldon,01621 456324,VGC,E
+284,Peugeot,306 XL,L,red,97000,2000,Nippon Sales,Maldon,01621 456324,VGC,E
+285,Peugeot,205 D,K,white,12000,1050,The Car Shop,Chester,01344 768970,Lady owner,NW
+286,Peugeot,205 GTI,H,blue,19000,1850,Frank's Car Sales,Stockton,01677 434210,FSH,NE
+287,Peugeot,405 GT,G,grey,10000,2000,Car-U-Like,Portsmouth,01233 872222,Stereo,S
+288,Peugeot,605 XS,H,red,94000,2100,Wheels of Croydon,Croydon,0181 788 5333,1 owner,S
+289,Peugeot,306 XD,K,blue,8500,300,Bristol Motors,Bristol,0117 455 3211,Any trial,W
+290,Peugeot,505 L,L,white,22500,550,McGovern's Cars,Glasgow,0141 544 9519,Used daily,N
+291,Peugeot,106 XL,P,green,35500,450,Reliable Harry's,Clapham,0171 556 3288,T&T,S
+292,BMW,323i,R,yellow,12500,999,Dalton Car Sales,Middlesbrough,01155 545889,Radio,NE
+294,BMW,840 SE,S,pink,22500,12500,Prestige Vehicles,Edinburgh,0131 766 4521,Used daily,N
+296,BMW,728i,S,grey,12400,15500,Nippon Sales,Maldon,01621 456324,Radio,E
+297,BMW,740i,N,red,26500,1500,The Car Shop,Chester,01344 768970,VGC,NW
+298,BMW,540i,N,red,32500,2500,Frank's Car Sales,Stockton,01677 434210,MOT,NE
+299,BMW,735 SE,N,white,24500,1750,Car-U-Like,Portsmouth,01233 872222,VGC,S
+300,BMW,730 SE,P,blue,95500,899,Wheels of Croydon,Croydon,0181 788 5333,MOT,S
+301,BMW,525 SE,M,black,45600,750,Bristol Motors,Bristol,0117 455 3211,VGC,W
+302,BMW,316,M,green,55700,750,McGovern's Cars,Glasgow,0141 544 9519,VGC,N
+303,BMW,316,S,black,33000,799,Reliable Harry's,Clapham,0171 556 3288,5-door,S
+304,BMW,316,R,red,23000,12999,Dalton Car Sales,Middlesbrough,01155 545889,Immac,NE
+306,BMW,316,C,blue,65500,6799,Prestige Vehicles,Edinburgh,0131 766 4521,Lady owner,N
+308,Alfa Romeo,33,F,pale blue,26500,3299,Nippon Sales,Maldon,01621 456324,Stereo,E
+309,Alfa Romeo,33,G,blue,32500,1599,The Car Shop,Chester,01344 768970,1 owner,NW
+310,Alfa Romeo,33,H,grey,24500,17899,Frank's Car Sales,Stockton,01677 434210,Any trial,NE
+311,Alfa Romeo,33,J,yellow,95500,7899,Car-U-Like,Portsmouth,01233 872222,Used daily,S
+312,Alfa Romeo,164,J,black,45600,3499,Wheels of Croydon,Croydon,0181 788 5333,T&T,S
+313,Alfa Romeo,164,K,red,55700,6299,Bristol Motors,Bristol,0117 455 3211,Radio,W
+314,Alfa Romeo,164,L,grey,33000,1699,McGovern's Cars,Glasgow,0141 544 9519,VGC,N
+315,Honda,Accord,K,blue,23000,18499,Reliable Harry's,Clapham,0171 556 3288,VGC,S
+316,Honda,Accord,L,pink,15000,6499,Dalton Car Sales,Middlesbrough,01155 545889,5-door,NE
+318,Honda,Accord,N,yellow,45000,1250,Prestige Vehicles,Edinburgh,0131 766 4521,MOT,N
+320,Honda,Civic,S,grey,109000,8225,Nippon Sales,Maldon,01621 456324,FSH,E
+321,Honda,Civic,S,green,98000,6199,The Car Shop,Chester,01344 768970,Stereo,NW
+322,Honda,Civic,R,green,34000,7799,Frank's Car Sales,Stockton,01677 434210,1 owner,NE
+323,Fiat,Uno,P,white,45000,3425,Car-U-Like,Portsmouth,01233 872222,Any trial,S
+324,Fiat,Uno,G,red,23000,4500,Wheels of Croydon,Croydon,0181 788 5333,Used daily,S
+325,Fiat,Uno,L,blue,109000,5699,Bristol Motors,Bristol,0117 455 3211,T&T,W
+326,Fiat,Uno,M,red,98000,8275,McGovern's Cars,Glasgow,0141 544 9519,Radio,N
+327,Fiat,Tipo,R,blue,34000,6675,Reliable Harry's,Clapham,0171 556 3288,Any trial,S
+328,Fiat,Tipo,S,white,45000,2380,Dalton Car Sales,Middlesbrough,01155 545889,Used daily,NE
+330,Fiat,Tipo,L,yellow,109000,8600,Prestige Vehicles,Edinburgh,0131 766 4521,Radio,N
+332,Fiat,Panda,R,pink,34000,6200,Nippon Sales,Maldon,01621 456324,Very fast,E
+333,Fiat,Panda,S,white,56000,125,The Car Shop,Chester,01344 768970,Alloys,NW
+334,Fiat,Panda,G,grey,34000,790,Frank's Car Sales,Stockton,01677 434210,MOT,NE
+335,Fiat,Panda,L,red,44000,12999,Car-U-Like,Portsmouth,01233 872222,MOT,S
+336,Fiat,Panda,M,blue,55000,4500,Wheels of Croydon,Croydon,0181 788 5333,VGC,S
+337,Nissan,Primera,R,white,66000,3299,Bristol Motors,Bristol,0117 455 3211,MOT,W
+338,Nissan,Primera,S,green,34000,830,McGovern's Cars,Glasgow,0141 544 9519,VGC,N
+339,Nissan,Primera,R,yellow,56000,1299,Reliable Harry's,Clapham,0171 556 3288,aircon,S
+340,Nissan,Bluebird,S,red,34000,34000,Dalton Car Sales,Middlesbrough,01155 545889,MOT,NE
+342,Nissan,Bluebird,L,white,55000,3499,Prestige Vehicles,Edinburgh,0131 766 4521,VGC,N
+344,Nissan,Sunny,P,red,23000,3450,Nippon Sales,Maldon,01621 456324,MOT,E
+345,Nissan,Sunny,G,blue,34000,4400,The Car Shop,Chester,01344 768970,3 door,NW
+346,Nissan,Sunny,R,white,33000,4650,Frank's Car Sales,Stockton,01677 434210,VGC,NE
+347,Landrover,Discovery,S,green,39000,15500,Car-U-Like,Portsmouth,01233 872222,MOT,S
+348,VW,Passat,S,yellow,41000,13500,Wheels of Croydon,Croydon,0181 788 5333,VGC,S
+349,Jaguar,XJS,R,red,42000,14500,Bristol Motors,Bristol,0117 455 3211,VGC,W
+350,Toyota,Landcruiser,R,pink,46000,12500,McGovern's Cars,Glasgow,0141 544 9519,aircon,N
+351,Mercedes,E220,R,white,57000,9999,Reliable Harry's,Clapham,0171 556 3288,aircon,S
+352,Landrover,Discovery,P,grey,58000,3500,Dalton Car Sales,Middlesbrough,01155 545889,VGC,NE
+354,Jaguar,XJS,L,blue,62000,4500,Prestige Vehicles,Edinburgh,0131 766 4521,3 door,N
+356,Mercedes,E220,N,green,93000,3999,Wrights Quality Cars,Liverpool,01514 567843,VGC,NW
+357,Landrover,Discovery,R,yellow,21000,2550,Nixons Used Autos,Liverpool,01514 561235,aircon,NW
+358,VW,Passat,S,red,17000,995,Daves Used Cars,Gravesend,01474 876098,MOT,SE
+359,Jaguar,XJS,L,pink,14000,7500,Wrights Quality Cars,Liverpool,01514 567843,MOT,NW
+360,Toyota,Landcruiser,K,white,88000,850,Nixons Used Autos,Liverpool,01514 561235,VGC,NW
+361,Mercedes,E220,K,grey,82000,899,Daves Used Cars,Gravesend,01474 876098,MOT,SE
+362,Landrover,Series I,L,red,49000,2000,Wrights Quality Cars,Liverpool,01514 567843,VGC,NW
+363,VW,Sirocco,P,blue,40000,1050,Nixons Used Autos,Liverpool,01514 561235,aircon,NW
+364,Jaguar,XJ6,N,white,16000,1850,Acme Autos,Colchester,01206 452345,MOT,E
+365,Toyota,Previa,R,green,13000,2000,Acme Autos,Colchester,01206 452345,aircon,E
+366,Mercedes,SL500,S,yellow,77000,2100,University Motors,Cambridge,01223 768956,VGC,C
+367,Daewoo,Subina,S,red,53000,300,University Motors,Cambridge,01223 768956,MOT,C
+368,BMW,328i,R,pink,73000,550,Smith Autos,Cambridge,01223 654318,MOT,C
+369,Fiat,Punto,P,white,89000,450,Weldit Used Cars,Inverness,01463 741514,3 door,N
+370,Rover,Vitesse,L,grey,97000,999,Tidy Cars,Peterborough,01733 231456,VGC,E
+371,Austin,Montego,M,red,12000,899,Hudson Used Cars,Clacton on Sea,01255 423161,MOT,E
+372,Daewoo,Subina,L,blue,19000,12500,Bodgit Quality Cars,Southport,01704 567854,VGC,NW
+373,BMW,328i,K,white,10000,13500,Weldit Used Cars,Inverness,01463 741514,VGC,N
+374,Fiat,Punto,H,green,94000,15500,Tidy Cars,Peterborough,01733 231456,VGC,E
+375,Rover,3500i,G,yellow,39000,1500,Hudson Used Cars,Clacton on Sea,01255 423161,3 door,E
+376,Austin,Montego,H,red,41000,2500,Bodgit Quality Cars,Southport,01704 567854,3 door,NW
+377,Daewoo,Subina,K,pink,42000,1750,Port Erin,Isle of Man,01624 453678,3 door,NW
+378,BMW,525i,L,white,46000,899,Weldit Used Cars,Inverness,01463 741514,VGC,N
+379,Fiat,Punto,P,grey,57000,750,Tidy Cars,Peterborough,01733 231456,aircon,E
+380,Rover,Vitesse,R,red,58000,750,Hudson Used Cars,Clacton on Sea,01255 423161,MOT,E
+381,Austin,Metro,R,blue,51000,799,Bodgit Quality Cars,Southport,01704 567854,MOT,NW
+382,Daewoo,Subina,S,white,62000,12999,Fixitt Car Dealers,Portree,01478 576894,VGC,N
+383,BMW,728 SE,S,green,103000,1299,Tidy Cars,Peterborough,01733 231456,MOT,E
+384,Fiat,Punto,S,yellow,93000,6799,Tidy Cars,Peterborough,01733 231456,VGC,E
+385,Rover,3500i,N,red,21000,5499,Fixitt Car Dealers,Portree,01478 576894,aircon,N
+386,Austin,Montego,N,pink,17000,3299,Hudson Used Cars,Clacton on Sea,01255 423161,MOT,E
+387,Daewoo,Subina,N,white,14000,1599,Off Road Sales,Torquay,01803 323014,aircon,W
+388,BMW,525i,P,grey,88000,17899,Rook Used Cars,Exeter,01392 460753,VGC,SW
+389,Fiat,Punto,M,red,82000,7899,Rook Used Cars,Exeter,01392 460753,MOT,SW
+390,Rover,Vitesse,M,blue,49000,3499,Sports Cars,Nottingham,01158 678954,MOT,C
+391,Austin,Metro,S,white,40000,6299,Sports Cars,Nottingham,01158 678954,3 door,C
+392,Datsun,Sunny,R,green,16000,1699,Daves Used Cars,Gravesend,01474 876098,VGC,SE
+393,Vauxhall,Astra,R,yellow,13000,18499,Wrights Quality Cars,Liverpool,01514 567843,MOT,NW
+394,Nissan,Primera,C,red,77000,6499,Nixons Used Autos,Liverpool,01514 561235,VGC,NW
+395,Nissan,Micra,D,pink,53000,8399,Daves Used Cars,Gravesend,01474 876098,VGC,SE
+396,Volvo,V70,F,white,73000,1250,Wrights Quality Cars,Liverpool,01514 567843,aircon,NW
+397,Nissan,Cherry,G,grey,89000,7525,Nixons Used Autos,Liverpool,01514 561235,aircon,NW
+398,Mazda,323i,H,red,97000,8225,Daves Used Cars,Gravesend,01474 876098,VGC,SE
+399,Mazda,MR2,J,blue,12000,6199,Wrights Quality Cars,Liverpool,01514 567843,3 door,NW
+400,MG,Midget,J,white,19000,7799,Nixons Used Autos,Liverpool,01514 561235,3 door,NW
+401,MG,Metro,K,green,10000,3425,Acme Autos,Colchester,01206 452345,3 door,E
+402,MG,Roadster,L,yellow,94000,4500,Acme Autos,Colchester,01206 452345,VGC,E
+403,Bentley,Mulsanne,K,red,39000,5699,University Motors,Cambridge,01223 768956,aircon,C
+404,Bentley,Turbo,L,pink,41000,8275,University Motors,Cambridge,01223 768956,MOT,C
+405,Vauxhall,Cavalier,P,white,42000,6675,Smith Autos,Cambridge,01223 654318,MOT,C
+406,Vauxhall,Astra,N,grey,46000,2380,Station Cars,Manchester,01617 453678,VGC,N
+407,Vauxhall,Carlton,R,red,57000,75,Station Cars,Manchester,1618 453678,MOT,NW
+408,Vauxhall,Omega,S,blue,58000,8600,Smith Autos,Cambridge,01223 654318,VGC,C
+409,Vauxhall,Frontera,S,white,51000,25,Smith Autos,Cambridge,01223 654318,aircon,C
+410,Vauxhall,Nova,R,green,62000,6200,Wrights Quality Cars,Liverpool,01514 567843,MOT,NW
+411,Vauxhall,Tigre,P,yellow,103000,125,Wrights Quality Cars,Liverpool,01514 567843,aircon,NW
+412,Vauxhall,Cavalier,G,red,93000,790,Wrights Quality Cars,Liverpool,01514 567843,VGC,NW
+413,Vauxhall,Vectra,L,pink,21000,12999,Acme Autos,Colchester,01206 452345,MOT,E
+414,Vauxhall,Senator,M,white,17000,4500,Acme Autos,Colchester,01206 452345,MOT,E
+415,Vauxhall,Vectra,R,grey,14000,3299,Nixons Used Autos,Liverpool,01514 561235,3 door,NW
+416,Vauxhall,Astra,S,red,88000,830,Nixons Used Autos,Liverpool,01514 561235,VGC,NW
+417,Vauxhall,Astra,G,blue,82000,1299,Nixons Used Autos,Liverpool,01514 561235,MOT,NW
+418,Nissan,Primera,L,white,49000,34000,Nixons Used Autos,Liverpool,01514 561235,VGC,NW
+419,Nissan,Micra,M,green,40000,5600,Nippon Sales,Maldon,01621 456324,MOT,E
+420,Volvo,V70,R,yellow,16000,3499,Nippon Sales,Maldon,01621 456324,VGC,E
+421,Nissan,Cherry,S,red,13000,2899,Nippon Sales,Maldon,01621 456324,VGC,E
+422,Mazda,323i,G,pink,77000,3450,The Car Shop,Chester,01344 768970,Lady owner,NW
+423,Mazda,MR2,L,white,53000,4400,Frank's Car Sales,Stockton,01677 434210,FSH,NE
+424,MG,Midget,M,grey,73000,4650,Car-U-Like,Portsmouth,01233 872222,Stereo,S
+425,MG,Metro,R,red,89000,15500,Wheels of Croydon,Croydon,0181 788 5333,1 owner,S
+426,MG,Roadster,S,blue,97000,13500,Bristol Motors,Bristol,0117 455 3211,Any trial,W
+427,Bentley,Mulsanne,R,white,12000,14500,McGovern's Cars,Glasgow,0141 544 9519,Used daily,N
+428,Bentley,Turbo,S,green,19000,12500,Reliable Harry's,Clapham,0171 556 3288,T&T,S
+429,Vauxhall,Cavalier,G,yellow,10000,9999,Dalton Car Sales,Middlesbrough,01155 545889,Radio,NE
+431,Vauxhall,Carlton,M,pink,39000,3550,Prestige Vehicles,Edinburgh,0131 766 4521,Used daily,N
+433,Vauxhall,Frontera,G,grey,42000,2550,Nippon Sales,Maldon,01621 456324,Radio,E
+434,Vauxhall,Nova,R,red,46000,3999,The Car Shop,Chester,01344 768970,VGC,NW
+435,Vauxhall,Tigre,S,blue,57000,2550,Frank's Car Sales,Stockton,01677 434210,MOT,NE
+436,Vauxhall,Cavalier,S,white,58000,995,Car-U-Like,Portsmouth,01233 872222,VGC,S
+437,Vauxhall,Vectra,R,green,51000,7500,Wheels of Croydon,Croydon,0181 788 5333,MOT,S
+438,Vauxhall,Senator,R,yellow,62000,850,Bristol Motors,Bristol,0117 455 3211,VGC,W
+439,Vauxhall,Vectra,R,red,103000,899,McGovern's Cars,Glasgow,0141 544 9519,VGC,N
+440,Vauxhall,Astra,P,pink,93000,2000,Reliable Harry's,Clapham,0171 556 3288,5-door,S
+441,Vauxhall,Astra,N,white,21000,1050,Dalton Car Sales,Middlesbrough,01155 545889,Immac,NE
+443,VW,Jetta,P,red,14000,2000,Prestige Vehicles,Edinburgh,0131 766 4521,Lady owner,N
+445,VW,Golf,R,white,82000,300,Nippon Sales,Maldon,01621 456324,Stereo,E
+446,VW,Polo,S,blue,49000,550,The Car Shop,Chester,01344 768970,1 owner,NW
+447,VW,Golf,L,lemon,40000,450,Frank's Car Sales,Stockton,01677 434210,Any trial,NE
+448,VW,Polo,K,orange,16000,999,Car-U-Like,Portsmouth,01233 872222,Used daily,S
+449,Renault,Megane,K,green,13000,899,Wheels of Croydon,Croydon,0181 788 5333,T&T,S
+450,Renault,Clio,L,silver,77000,12500,Bristol Motors,Bristol,0117 455 3211,Radio,W
+451,Renault,Safrane,P,blue,53000,13500,McGovern's Cars,Glasgow,0141 544 9519,VGC,N
+452,Renault,Laguna,N,white,73000,15500,Reliable Harry's,Clapham,0171 556 3288,VGC,S
+453,Renault,Clio,R,red,89000,1500,Dalton Car Sales,Middlesbrough,01155 545889,5-door,NE
+455,Renault,Clio,S,silver,12000,1750,Prestige Vehicles,Edinburgh,0131 766 4521,MOT,N
+457,Renault,Laguna,P,white,10000,750,Nippon Sales,Maldon,01621 456324,FSH,E
+458,Renault,Clio,L,red,94000,750,The Car Shop,Chester,01344 768970,Stereo,NW
+459,VW,Golf,M,green,8500,799,Frank's Car Sales,Stockton,01677 434210,1 owner,NE
+460,VW,Jetta,L,silver,22500,12999,Car-U-Like,Portsmouth,01233 872222,Any trial,S
+461,VW,Passat,K,blue,35500,1299,Wheels of Croydon,Croydon,0181 788 5333,Used daily,S
+462,VW,Golf,H,white,12500,6799,Bristol Motors,Bristol,0117 455 3211,T&T,W
+463,VW,Polo,G,red,12000,5499,McGovern's Cars,Glasgow,0141 544 9519,Radio,N
+464,VW,Golf,H,black,22500,3299,Reliable Harry's,Clapham,0171 556 3288,Any trial,S
+465,VW,Polo,K,bronze,65500,1599,Dalton Car Sales,Middlesbrough,01155 545889,Used daily,NE
+467,Peugeot,306 XL,P,orange,26500,7899,Prestige Vehicles,Edinburgh,0131 766 4521,Radio,N
+469,Peugeot,205 GTI,R,red,24500,6299,Nippon Sales,Maldon,01621 456324,Very fast,E
+470,Peugeot,405 GT,S,green,95500,1699,The Car Shop,Chester,01344 768970,Alloys,NW
+471,Peugeot,605 XS,S,silver,45600,18499,Frank's Car Sales,Stockton,01677 434210,MOT,NE
+472,Peugeot,306 XD,S,blue,55700,6499,Car-U-Like,Portsmouth,01233 872222,MOT,S
+473,Peugeot,505 L,N,white,33000,8399,Wheels of Croydon,Croydon,0181 788 5333,VGC,S
+474,Peugeot,106 XL,N,blue,23000,1250,Bristol Motors,Bristol,0117 455 3211,MOT,W
+475,Mercedes,E320,N,lemon,15000,7525,McGovern's Cars,Glasgow,0141 544 9519,VGC,N
+476,Mercedes,Kompressor,P,orange,65500,8225,Reliable Harry's,Clapham,0171 556 3288,aircon,S
+477,Mercedes,SL300,M,green,12400,6199,Dalton Car Sales,Middlesbrough,01155 545889,MOT,NE
+479,Mercedes,A200,S,blue,32500,3425,Prestige Vehicles,Edinburgh,0131 766 4521,VGC,N
+481,Mercedes,C220,R,red,95500,5699,Nippon Sales,Maldon,01621 456324,MOT,E
+482,Peugeot,205 XE,C,green,45600,8275,The Car Shop,Chester,01344 768970,3 door,NW
+483,Peugeot,306 XL,D,silver,55700,6675,Frank's Car Sales,Stockton,01677 434210,VGC,NE
+484,Peugeot,205 D,F,blue,33000,2380,Car-U-Like,Portsmouth,01233 872222,MOT,S
+485,Peugeot,205 GTI,G,white,23000,75,Wheels of Croydon,Croydon,0181 788 5333,VGC,S
+486,Peugeot,405 GT,H,red,15000,8600,Bristol Motors,Bristol,0117 455 3211,VGC,W
+487,Peugeot,605 XS,J,green,76900,25,McGovern's Cars,Glasgow,0141 544 9519,aircon,N
+488,Peugeot,306 XD,J,silver,45000,6200,Reliable Harry's,Clapham,0171 556 3288,aircon,S
+489,Peugeot,505 L,K,blue,23000,125,Dalton Car Sales,Middlesbrough,01155 545889,VGC,NE
+491,BMW,323i,K,orange,98000,12999,Prestige Vehicles,Edinburgh,0131 766 4521,3 door,N
+493,BMW,840 SE,P,silver,45000,3299,Stan's Little Gems,Watford,0181 566 7900,VGC,C
+494,BMW,735i,N,blue,23000,830,Swindon Used Cars,Swindon,01918 656 432,aircon,W
+495,BMW,728i,R,white,109000,1299,RFG Vehicles,Felixstowe,01582 342 888,MOT,E
+496,BMW,740i,S,green,98000,34000,Clark & Son,Birmingham,0121 344 2111,MOT,C
+497,BMW,540i,S,black,34000,5600,Eric Mitchell Cars,Oxford,01998 675 800,VGC,W
+498,BMW,735 SE,R,red,45000,3499,Gruber & Co,Crewe,01222 900 800,MOT,NW
+499,BMW,730 SE,P,white,23000,2899,Spunkmeyer Cars,Canterbury,01877 540 540,VGC,SE
+500,VW,Passat,G,blue,109000,3450,OTT Wheels,Barnstaple,01722 459761,aircon,SW
+510,VW,Passat,G,pink,34000,4500,OTT Wheels,Barnstaple,01722 459761,VGC,SW
+511,Jaguar,XJS,L,green,44000,2550,OTT Wheels,Barnstaple,1723 459761,Lady owner,SW
+512,Toyota,Landcruiser,M,yellow,55000,3999,OTT Wheels,Barnstaple,1724 459761,FSH,SW
+513,Mercedes,E220,R,red,88000,2550,OTT Wheels,Barnstaple,1725 459761,Stereo,SW
+514,Landrover,Series I,S,grey,23000,995,OTT Wheels,Barnstaple,1726 459761,1 owner,SW
+515,VW,Sirocco,R,green,34000,7500,OTT Wheels,Barnstaple,1727 459761,Any trial,SW
+516,Jaguar,XJ6,S,green,33000,850,OTT Wheels,Barnstaple,1728 459761,Used daily,SW
+517,Toyota,Previa,G,white,39000,899,OTT Wheels,Barnstaple,1729 459761,T&T,SW
+518,Mercedes,SL500,L,red,41000,2000,OTT Wheels,Barnstaple,1730 459761,Radio,SW
+519,Daewoo,Subina,M,blue,42000,1050,OTT Wheels,Barnstaple,1731 459761,Any trial,SW
+520,BMW,328i,P,red,46000,1850,Spunkmeyer Cars,Canterbury,01877 540 540,Used daily,SE
+521,Fiat,Punto,G,blue,57000,2000,Spunkmeyer Cars,Canterbury,1878 540 540,T&T,SE
+522,Rover,Vitesse,R,white,58000,2100,Spunkmeyer Cars,Canterbury,1879 540 540,Radio,SE
+523,Austin,Montego,S,green,51000,300,Spunkmeyer Cars,Canterbury,1880 540 540,VGC,SE
+524,Daewoo,Subina,S,yellow,62000,550,Spunkmeyer Cars,Canterbury,1881 540 540,MOT,SE
+525,BMW,328i,R,red,103000,450,Spunkmeyer Cars,Canterbury,1882 540 540,VGC,SE
+526,Fiat,Punto,R,pink,93000,999,Spunkmeyer Cars,Canterbury,1883 540 540,MOT,SE
+527,Rover,3500i,R,white,21000,899,Spunkmeyer Cars,Canterbury,1884 540 540,VGC,SE
+528,Austin,Montego,P,grey,17000,12500,Spunkmeyer Cars,Canterbury,1885 540 540,VGC,SE
+529,Daewoo,Subina,N,red,14000,13500,Spunkmeyer Cars,Canterbury,1886 540 540,5-door,SE
+530,BMW,525i,L,blue,88000,15500,Spunkmeyer Cars,Canterbury,1887 540 540,Immac,SE
+531,Fiat,Punto,P,white,82000,1500,Spunkmeyer Cars,Canterbury,1888 540 540,MOT,SE
+532,Rover,Vitesse,N,green,49000,2500,Spunkmeyer Cars,Canterbury,1889 540 540,Lady owner,SE
+533,Austin,Metro,R,yellow,40000,1750,Spunkmeyer Cars,Canterbury,1890 540 540,FSH,SE
+534,Daewoo,Subina,S,red,16000,899,Spunkmeyer Cars,Canterbury,1891 540 540,Stereo,SE
+535,BMW,728 SE,L,pink,13000,750,Spunkmeyer Cars,Canterbury,1892 540 540,1 owner,SE
+536,Fiat,Punto,K,white,77000,750,Spunkmeyer Cars,Canterbury,1893 540 540,Any trial,SE
+537,Rover,3500i,K,grey,53000,799,Spunkmeyer Cars,Canterbury,1894 540 540,Used daily,SE
+538,Austin,Montego,L,red,73000,12999,Swindon Used Cars,Swindon,01918 656 432,T&T,W
+539,Daewoo,Subina,P,blue,89000,1299,RFG Vehicles,Felixstowe,01582 342 888,Radio,E
+540,BMW,525i,N,white,97000,6799,Clark & Son,Birmingham,0121 344 2111,VGC,C
+541,Fiat,Punto,R,green,12000,5499,Eric Mitchell Cars,Oxford,01998 675 800,VGC,W
+542,Rover,Vitesse,S,yellow,19000,3299,Gruber & Co,Crewe,01222 900 800,5-door,NW
+543,Austin,Metro,S,red,10000,1599,Swindon Used Cars,Swindon,1919 656 432,Immac,W
+544,Datsun,Sunny,R,pink,94000,17899,RFG Vehicles,Felixstowe,1583 342 888,MOT,E
+545,Vauxhall,Astra,P,white,39000,7899,Clark & Son,Birmingham,122 344 2111,Lady owner,C
+546,Nissan,Primera,L,grey,41000,3499,Eric Mitchell Cars,Oxford,1999 675 800,FSH,W
+547,Nissan,Micra,M,red,42000,6299,Gruber & Co,Crewe,1223 900 800,Stereo,NW
+548,Volvo,V70,L,blue,46000,1699,Swindon Used Cars,Swindon,1919 656 432,1 owner,W
+549,Nissan,Cherry,K,white,57000,18499,RFG Vehicles,Felixstowe,1583 342 888,Any trial,E
+550,Mazda,323i,H,green,58000,6499,Clark & Son,Birmingham,122 344 2111,Used daily,C
+551,Mazda,MR2,G,yellow,51000,8399,Eric Mitchell Cars,Oxford,1999 675 800,T&T,W
+552,MG,Midget,H,red,62000,1250,Gruber & Co,Crewe,1223 900 800,Radio,NW
+553,MG,Metro,K,pink,103000,7525,Swindon Used Cars,Swindon,1920 656 432,Any trial,W
+554,MG,Roadster,L,white,93000,8225,RFG Vehicles,Felixstowe,1584 342 888,Used daily,E
+555,Bentley,Mulsanne,P,grey,21000,6199,Clark & Son,Birmingham,123 344 2111,T&T,C
+556,Bentley,Turbo,R,red,17000,7799,Swindon Used Cars,Swindon,1919 656 432,Radio,W
+557,Vauxhall,Cavalier,R,blue,14000,3425,RFG Vehicles,Felixstowe,1583 342 888,Stunning,E
+558,Vauxhall,Astra,S,white,88000,4500,Clark & Son,Birmingham,122 344 2111,Very fast,C
+559,Vauxhall,Carlton,S,green,82000,5699,Eric Mitchell Cars,Oxford,1999 675 800,Alloys,W
+560,Vauxhall,Omega,S,yellow,49000,8275,Gruber & Co,Crewe,1223 900 800,MOT,NW
+561,Vauxhall,Frontera,N,red,40000,6675,Swindon Used Cars,Swindon,1920 656 432,MOT,W
+562,Vauxhall,Nova,N,pink,16000,2380,RFG Vehicles,Felixstowe,1584 342 888,VGC,E
+563,Vauxhall,Tigre,N,white,13000,75,Clark & Son,Birmingham,123 344 2111,MOT,C
+564,Vauxhall,Cavalier,P,grey,77000,8600,Eric Mitchell Cars,Oxford,2000 675 800,VGC,W
+565,Vauxhall,Vectra,M,red,53000,25,Gruber & Co,Crewe,1224 900 800,aircon,NW
+566,Vauxhall,Senator,M,blue,73000,6200,Swindon Used Cars,Swindon,1920 656 432,MOT,W
+567,Vauxhall,Vectra,S,white,89000,125,RFG Vehicles,Felixstowe,1584 342 888,aircon,E
+568,Vauxhall,Astra,R,green,97000,790,Clark & Son,Birmingham,123 344 2111,VGC,C
+569,Vauxhall,Astra,R,yellow,12000,12999,Eric Mitchell Cars,Oxford,2000 675 800,MOT,W
+570,Nissan,Primera,C,red,19000,4500,Gruber & Co,Crewe,1224 900 800,MOT,NW
+571,Nissan,Micra,D,pink,10000,3299,Swindon Used Cars,Swindon,1921 656 432,3 door,W
+572,Volvo,V70,F,white,94000,830,RFG Vehicles,Felixstowe,1585 342 888,VGC,E
+573,Nissan,Cherry,G,grey,39000,1299,Clark & Son,Birmingham,124 344 2111,MOT,C
+574,Mazda,323i,H,red,41000,34000,Swindon Used Cars,Swindon,1920 656 432,VGC,W
+575,Mazda,MR2,J,blue,42000,5600,RFG Vehicles,Felixstowe,1584 342 888,VGC,E
+576,MG,Midget,J,white,46000,3499,Clark & Son,Birmingham,123 344 2111,aircon,C
+577,MG,Metro,K,green,57000,2899,Eric Mitchell Cars,Oxford,2000 675 800,aircon,W
+578,MG,Roadster,L,yellow,58000,3450,Gruber & Co,Crewe,1224 900 800,VGC,NW
+579,Bentley,Mulsanne,K,red,51000,4400,Swindon Used Cars,Swindon,1921 656 432,3 door,W
+580,Bentley,Turbo,L,pink,62000,4650,RFG Vehicles,Felixstowe,1585 342 888,3 door,E
+581,Vauxhall,Cavalier,P,white,103000,15500,Clark & Son,Birmingham,124 344 2111,3 door,C
+582,Vauxhall,Astra,N,grey,93000,13500,Eric Mitchell Cars,Oxford,2001 675 800,VGC,W
+583,Vauxhall,Carlton,R,red,21000,14500,Gruber & Co,Crewe,1225 900 800,aircon,NW
+584,Vauxhall,Omega,S,blue,17000,12500,Swindon Used Cars,Swindon,1921 656 432,MOT,W
+585,Vauxhall,Frontera,S,white,14000,9999,RFG Vehicles,Felixstowe,1585 342 888,MOT,E
+586,Vauxhall,Nova,R,green,88000,3500,Clark & Son,Birmingham,124 344 2111,VGC,C
+587,Vauxhall,Tigre,P,yellow,82000,3550,Eric Mitchell Cars,Oxford,2001 675 800,MOT,W
+588,Vauxhall,Cavalier,G,red,49000,4500,Gruber & Co,Crewe,1225 900 800,VGC,NW
+589,Vauxhall,Vectra,L,pink,40000,2550,Swindon Used Cars,Swindon,1922 656 432,aircon,W
+590,Vauxhall,Senator,M,white,16000,3999,RFG Vehicles,Felixstowe,1586 342 888,MOT,E
+591,Vauxhall,Vectra,R,grey,13000,2550,Clark & Son,Birmingham,125 344 2111,aircon,C
+592,Vauxhall,Astra,S,red,77000,995,Swindon Used Cars,Swindon,1921 656 432,VGC,W
+593,Vauxhall,Astra,G,blue,53000,7500,The Car Shop,Chester,01344 768970,MOT,NW
+594,VW,Golf,L,white,73000,850,Frank's Car Sales,Stockton,01677 434210,MOT,NE
+595,VW,Jetta,M,green,89000,899,Car-U-Like,Portsmouth,01233 872222,3 door,S
+596,VW,Passat,R,yellow,97000,2000,Wheels of Croydon,Croydon,0181 788 5333,VGC,S
+597,VW,Golf,S,red,12000,1050,Bristol Motors,Bristol,0117 455 3211,MOT,W
+598,VW,Polo,G,pink,19000,1850,McGovern's Cars,Glasgow,0141 544 9519,VGC,N
+599,VW,Golf,L,white,10000,2000,Reliable Harry's,Clapham,0171 556 3288,VGC,S
+600,VW,Polo,M,grey,94000,2100,Dalton Car Sales,Middlesbrough,01155 545889,Lady owner,NE
+602,Renault,Clio,S,blue,41000,550,Prestige Vehicles,Edinburgh,0131 766 4521,Stereo,N
+604,Renault,Laguna,S,green,46000,999,Stan's Little Gems,Watford,0181 566 7900,Any trial,C
+605,Renault,Clio,G,yellow,57000,899,Swindon Used Cars,Swindon,01918 656 432,Used daily,W
+606,Renault,Megane,L,red,58000,12500,The Car Shop,Chester,1345 768970,T&T,NW
+607,Renault,Clio,M,pink,51000,13500,Frank's Car Sales,Stockton,1678 434210,Radio,NE
+608,Renault,Safrane,P,white,62000,15500,Car-U-Like,Portsmouth,1234 872222,Any trial,S
+609,Renault,Laguna,G,grey,103000,1500,Wheels of Croydon,Croydon,182 788 5333,Used daily,S
+610,Renault,Clio,R,red,93000,2500,Bristol Motors,Bristol,118 455 3211,T&T,W
+611,VW,Golf,S,blue,21000,1750,McGovern's Cars,Glasgow,142 544 9519,Radio,N
+612,VW,Jetta,S,white,17000,899,Reliable Harry's,Clapham,172 556 3288,VGC,S
+613,VW,Passat,R,green,14000,750,Dalton Car Sales,Middlesbrough,1156 545889,MOT,NE
+615,VW,Polo,R,red,82000,799,Prestige Vehicles,Edinburgh,132 766 4521,MOT,N
+617,VW,Polo,N,white,40000,1299,Stan's Little Gems,Watford,182 566 7900,VGC,C
+618,Peugeot,205 XE,L,grey,16000,6799,Swindon Used Cars,Swindon,1919 656 432,5-door,W
+619,Peugeot,306 XL,P,red,13000,5499,The Car Shop,Chester,1346 768970,Immac,NW
+620,Peugeot,205 D,N,blue,77000,3299,Frank's Car Sales,Stockton,1679 434210,MOT,NE
+621,Peugeot,205 GTI,R,white,53000,1599,Car-U-Like,Portsmouth,1235 872222,Lady owner,S
+622,Peugeot,405 GT,S,green,73000,17899,Wheels of Croydon,Croydon,183 788 5333,FSH,S
+623,Peugeot,605 XS,L,yellow,89000,7899,Bristol Motors,Bristol,119 455 3211,Stereo,W
+624,Peugeot,306 XD,K,red,97000,3499,McGovern's Cars,Glasgow,143 544 9519,1 owner,N
+625,Peugeot,505 L,K,pink,12000,6299,Reliable Harry's,Clapham,173 556 3288,Any trial,S
+626,Peugeot,106 XL,L,white,19000,1699,Dalton Car Sales,Middlesbrough,1157 545889,Used daily,NE
+628,Mercedes,Kompressor,N,red,94000,6499,Prestige Vehicles,Edinburgh,133 766 4521,Radio,N
+630,Mercedes,SL500,S,white,22500,1250,Stan's Little Gems,Watford,183 566 7900,VGC,C
+631,Mercedes,A200,S,green,35500,7525,Swindon Used Cars,Swindon,1920 656 432,5-door,W
+632,Mercedes,C320,R,yellow,12500,8225,The Car Shop,Chester,1347 768970,Immac,NW
+633,Mercedes,C220,P,red,12000,6199,Frank's Car Sales,Stockton,1680 434210,MOT,NE
+634,Peugeot,205 XE,L,pink,22500,7799,Car-U-Like,Portsmouth,1236 872222,Lady owner,S
+635,Peugeot,306 XL,M,white,65500,3425,Wheels of Croydon,Croydon,184 788 5333,FSH,S
+636,Peugeot,205 D,L,grey,12400,4500,Bristol Motors,Bristol,120 455 3211,Stereo,W
+637,Peugeot,205 GTI,K,red,26500,5699,McGovern's Cars,Glasgow,144 544 9519,1 owner,N
+638,Peugeot,405 GT,H,red,32500,8275,Reliable Harry's,Clapham,174 556 3288,Any trial,S
+639,Peugeot,605 XS,G,white,24500,6675,Dalton Car Sales,Middlesbrough,1158 545889,Used daily,NE
+641,Peugeot,505 L,K,lemon,45600,75,Prestige Vehicles,Edinburgh,134 766 4521,Radio,N
+643,VW,Passat,P,green,33000,25,Stan's Little Gems,Watford,184 566 7900,Used daily,C
+644,Jaguar,XJS,R,silver,23000,6200,Swindon Used Cars,Swindon,1921 656 432,T&T,W
+645,Toyota,Landcruiser,R,blue,15000,125,The Car Shop,Chester,1348 768970,Radio,NW
+646,Mercedes,E220,S,white,65500,790,Frank's Car Sales,Stockton,1681 434210,Stunning,NE
+647,Landrover,Discovery,S,red,12400,12999,Car-U-Like,Portsmouth,1237 872222,Very fast,S
+648,VW,Passat,S,green,26500,4500,Wheels of Croydon,Croydon,185 788 5333,Alloys,S
+649,Jaguar,XJS,N,silver,32500,3299,Bristol Motors,Bristol,121 455 3211,MOT,W
+650,Toyota,Landcruiser,N,blue,24500,830,McGovern's Cars,Glasgow,145 544 9519,MOT,N
+651,Mercedes,E220,N,white,95500,1299,Reliable Harry's,Clapham,175 556 3288,VGC,S
+652,Landrover,Discovery,P,red,45600,34000,Dalton Car Sales,Middlesbrough,1159 545889,MOT,NE
+654,Jaguar,XJS,M,silver,33000,3499,Prestige Vehicles,Edinburgh,135 766 4521,aircon,N
+656,Mercedes,E220,R,white,15000,2380,Stan's Little Gems,Watford,185 566 7900,aircon,C
+657,Landrover,Series I,R,red,76900,75,Swindon Used Cars,Swindon,1922 656 432,VGC,W
+658,VW,Sirocco,C,black,45000,8600,The Car Shop,Chester,1349 768970,MOT,NW
+659,Jaguar,XJ6,D,bronze,23000,25,Frank's Car Sales,Stockton,1682 434210,MOT,NE
+660,Toyota,Previa,F,yellow,109000,6200,The Car Shop,Chester,1345 768970,3 door,NW
+661,Mercedes,SL500,G,orange,98000,125,Frank's Car Sales,Stockton,1678 434210,VGC,NE
+662,Daewoo,Subina,H,gold,34000,790,Car-U-Like,Portsmouth,1234 872222,MOT,S
+663,BMW,328i,J,red,45000,12999,Wheels of Croydon,Croydon,182 788 5333,VGC,S
+664,Fiat,Punto,J,green,23000,4500,Bristol Motors,Bristol,118 455 3211,VGC,W
+665,Rover,Vitesse,K,silver,109000,3299,McGovern's Cars,Glasgow,142 544 9519,aircon,N
+666,Austin,Montego,L,blue,98000,830,Reliable Harry's,Clapham,172 556 3288,aircon,S
+667,Daewoo,Subina,K,white,34000,1299,Dalton Car Sales,Middlesbrough,1156 545889,VGC,NE
+669,Fiat,Punto,P,lemon,23000,5600,Prestige Vehicles,Edinburgh,132 766 4521,3 door,N
+671,Austin,Montego,R,green,98000,2899,Stan's Little Gems,Watford,182 566 7900,VGC,C
+672,Daewoo,Subina,S,silver,34000,3450,Swindon Used Cars,Swindon,1919 656 432,aircon,W
+673,BMW,525i,S,blue,56000,4400,The Car Shop,Chester,1346 768970,MOT,NW
+674,Fiat,Punto,R,white,34000,4650,Frank's Car Sales,Stockton,1679 434210,MOT,NE
+675,Rover,Vitesse,P,red,44000,15500,Car-U-Like,Portsmouth,1235 872222,VGC,S
+676,Austin,Metro,G,green,55000,13500,Wheels of Croydon,Croydon,183 788 5333,MOT,S
+677,Daewoo,Subina,L,silver,66000,14500,Bristol Motors,Bristol,119 455 3211,VGC,W
+678,BMW,728 SE,M,blue,34000,12500,McGovern's Cars,Glasgow,143 544 9519,aircon,N
+679,Fiat,Punto,R,white,56000,9999,Reliable Harry's,Clapham,173 556 3288,MOT,S
+680,Rover,3500i,S,red,34000,3500,Dalton Car Sales,Middlesbrough,1157 545889,aircon,NE
+682,Daewoo,Subina,L,silver,55000,4500,Prestige Vehicles,Edinburgh,133 766 4521,MOT,N
+684,Fiat,Punto,R,lemon,23000,3999,Stan's Little Gems,Watford,183 566 7900,3 door,C
+685,Rover,Vitesse,S,orange,34000,2550,Swindon Used Cars,Swindon,1920 656 432,VGC,W
+686,Austin,Metro,G,green,33000,995,The Car Shop,Chester,1347 768970,MOT,NW
+687,Datsun,Sunny,L,silver,39000,7500,Frank's Car Sales,Stockton,1680 434210,VGC,NE
+688,Vauxhall,Astra,M,blue,41000,850,Hudson Used Cars,Clacton on Sea,01255 423161,VGC,E
+689,Nissan,Primera,R,white,42000,899,Cars R Us,Kingsbridge,01548 531817,aircon,W
+690,Nissan,Micra,S,green,46000,2000,Off Road Sales,Torquay,01803 323014,aircon,SW
+691,Volvo,V70,R,black,57000,1050,Rook Used Cars,Exeter,01392 460753,VGC,SW
+692,Nissan,Cherry,S,red,58000,1850,South West Cars,Plymouth,01752 561797,3 door,SW
+693,Mazda,323i,G,white,51000,2000,Rook Used Cars,Exeter,01392 460753,3 door,SW
+694,Mazda,MR2,L,blue,62000,2100,Hansen,Torquay,01803 882597,3 door,SW
+695,MG,Midget,M,red,103000,300,Weldit Used Cars,Inverness,01463 741514,VGC,N
+696,MG,Metro,P,pale blue,93000,550,Bodgit Quality Cars,Southport,01704 567854,aircon,NW
+697,MG,Roadster,G,blue,21000,2380,Sports Cars,Nottingham,01158 678954,MOT,C
+698,Bentley,Mulsanne,R,grey,17000,75,Sports Cars,Nottingham,01158 678954,MOT,C
+699,Bentley,Turbo,S,yellow,14000,8600,GMV ltd,Gloucester,01452 732145,VGC,W
+700,Vauxhall,Cavalier,S,black,88000,25,Weldit Used Cars,Inverness,01463 741514,MOT,N
+701,Vauxhall,Astra,R,red,82000,6200,Tidy Cars,Peterborough,01733 231456,VGC,E
+702,Vauxhall,Carlton,R,grey,49000,125,Hudson Used Cars,Clacton on Sea,01255 423161,aircon,E
+703,Vauxhall,Omega,R,blue,40000,790,Bodgit Quality Cars,Southport,01704 567854,MOT,NW
+704,Vauxhall,Frontera,P,pink,16000,12999,Prestige Carriages,Tunbridge Wells,01892 531248,aircon,SE
+705,Vauxhall,Nova,N,green,13000,4500,Futter's Farm Vehicles,Kings Lynn,01533 778965,VGC,E
+706,Vauxhall,Tigre,L,yellow,77000,3299,Skye Wheels,Portree,01487 456321,MOT,N
+707,Vauxhall,Cavalier,P,red,53000,830,Fixitt Car Dealers,Portree,01478 576894,MOT,N
+708,Vauxhall,Vectra,N,grey,73000,1299,Tidy Cars,Peterborough,01733 231456,3 door,E
+709,Vauxhall,Senator,R,green,89000,34000,Tidy Cars,Peterborough,01733 231456,VGC,E
+710,Vauxhall,Vectra,S,green,97000,5600,Stephenson Ltd,Chelmsford,01245 678954,MOT,E
+711,Vauxhall,Astra,L,white,12000,3499,Fixitt Car Dealers,Portree,01478 576894,VGC,N
+712,Vauxhall,Astra,K,red,19000,2899,Weldit Used Cars,Inverness,01463 741514,VGC,N
+713,Nissan,Primera,K,blue,10000,3450,Tidy Cars,Peterborough,01733 231456,aircon,E
+714,Nissan,Micra,L,red,94000,4400,Hudson Used Cars,Clacton on Sea,01255 423161,aircon,E
+715,Volvo,V70,P,blue,39000,4650,Bodgit Quality Cars,Southport,01704 567854,VGC,NW
+716,Nissan,Cherry,N,white,41000,15500,Prestige Carriages,Tunbridge Wells,01892 531248,3 door,SE
+717,Mazda,323i,R,green,42000,13500,Futter's Farm Vehicles,Kings Lynn,01533 778965,3 door,E
+718,Mazda,MR2,S,yellow,46000,14500,Skye Wheels,Portree,01487 456321,3 door,N
+719,MG,Midget,S,red,57000,12500,Fixitt Car Dealers,Portree,01478 576894,VGC,N
+720,MG,Metro,R,pink,58000,9999,Tidy Cars,Peterborough,01733 231456,aircon,E
+721,MG,Roadster,P,white,51000,3500,Tidy Cars,Peterborough,01733 231456,MOT,E
+722,Bentley,Mulsanne,L,grey,62000,3550,Stephenson Ltd,Chelmsford,01245 678954,MOT,E
+723,Bentley,Turbo,M,red,103000,4500,Fixitt Car Dealers,Portree,01478 576894,VGC,N
+724,Vauxhall,Cavalier,L,blue,93000,2550,Hudson Used Cars,Clacton on Sea,01255 423161,MOT,E
+725,Vauxhall,Astra,K,white,21000,3999,South West Cars,Plymouth,01752 561797,VGC,SW
+726,Vauxhall,Carlton,H,green,17000,2550,Off Road Sales,Torquay,01803 323014,aircon,SW
+727,Vauxhall,Omega,G,yellow,14000,995,Rook Used Cars,Exeter,01392 460753,MOT,SW
+728,Vauxhall,Frontera,H,red,88000,7500,Hansen,Torquay,01803 882597,aircon,SW
+729,Vauxhall,Nova,K,pink,82000,850,Rook Used Cars,Exeter,01392 460753,VGC,SW
+730,Vauxhall,Tigre,L,white,49000,899,Stephenson Ltd,Chelmsford,01245 678546,MOT,E
+731,Vauxhall,Cavalier,P,grey,40000,2000,Sports Cars,Nottingham,01158 678954,MOT,C
+732,Vauxhall,Vectra,R,red,16000,1050,Sports Cars,Nottingham,01158 678954,3 door,C
+733,Vauxhall,Senator,R,blue,13000,1850,Daves Used Cars,Gravesend,01474 876098,VGC,SE
+734,Vauxhall,Vectra,S,white,77000,2000,Wrights Quality Cars,Liverpool,01514 567843,MOT,NW
+735,Vauxhall,Astra,S,green,53000,2100,Nixons Used Autos,Liverpool,01514 561235,VGC,NW
+736,Vauxhall,Astra,S,yellow,73000,300,Daves Used Cars,Gravesend,01474 876098,VGC,SE
+737,VW,Golf,N,red,89000,550,Wrights Quality Cars,Liverpool,01514 567843,aircon,NW
+738,VW,Jetta,N,pink,97000,2380,Nixons Used Autos,Liverpool,01514 561235,aircon,NW
+739,VW,Passat,N,white,12000,75,Daves Used Cars,Gravesend,01474 876098,VGC,SE
+740,VW,Golf,P,grey,19000,8600,Wrights Quality Cars,Liverpool,01514 567843,3 door,NW
+741,VW,Polo,M,red,10000,25,Nixons Used Autos,Liverpool,01514 561235,3 door,NW
+742,VW,Golf,M,blue,94000,6200,Acme Autos,Colchester,01206 452345,3 door,E
+743,VW,Polo,S,white,39000,125,Acme Autos,Colchester,01206 452345,VGC,E
+744,Renault,Megane,R,green,41000,790,University Motors,Cambridge,01223 768956,aircon,C
+745,Renault,Clio,R,yellow,42000,12999,University Motors,Cambridge,01223 768956,MOT,C
+746,Renault,Safrane,C,red,46000,4500,Smith Autos,Cambridge,01223 654318,MOT,C
+747,Renault,Laguna,D,pink,57000,3299,Station Cars,Manchester,01617 453678,VGC,NW
+748,Renault,Clio,F,white,58000,830,Station Cars,Manchester,1618 453678,MOT,NW
+749,Renault,Megane,G,grey,51000,1299,Smith Autos,Cambridge,01223 654318,VGC,C
+750,Renault,Clio,H,red,62000,34000,Daves Used Cars,Gravesend,01474 876098,aircon,SE
+751,Renault,Safrane,J,blue,103000,5600,Wrights Quality Cars,Liverpool,01514 567843,MOT,NW
+752,Renault,Laguna,J,white,93000,3499,Nixons Used Autos,Liverpool,01514 561235,aircon,NW
+753,Renault,Clio,K,green,21000,2899,Daves Used Cars,Gravesend,01474 876098,VGC,SE
+754,VW,Golf,L,yellow,17000,3450,Wrights Quality Cars,Liverpool,01514 567843,MOT,NW
+755,VW,Jetta,K,red,14000,4400,Nixons Used Autos,Liverpool,01514 561235,MOT,NW
+756,VW,Passat,L,pink,88000,4650,Daves Used Cars,Gravesend,01474 876098,3 door,SE
+757,VW,Golf,P,white,82000,15500,Wrights Quality Cars,Liverpool,01514 567843,VGC,NW
+758,VW,Polo,N,grey,49000,13500,Nixons Used Autos,Liverpool,01514 561235,MOT,NW
+759,VW,Golf,R,red,40000,14500,Acme Autos,Colchester,01206 452345,VGC,E
+760,VW,Polo,S,blue,16000,12500,Acme Autos,Colchester,01206 452345,VGC,E
+761,Peugeot,205 XE,S,white,13000,9999,University Motors,Cambridge,01223 768956,aircon,C
+762,Peugeot,306 XL,R,green,77000,3500,University Motors,Cambridge,01223 768956,aircon,C
+763,Peugeot,205 D,P,yellow,53000,3550,Smith Autos,Cambridge,01223 654318,VGC,C
+764,Peugeot,205 GTI,S,red,73000,4500,Station Cars,Manchester,01617 453678,3 door,NW
+765,Peugeot,405 GT,S,pink,89000,2550,Station Cars,Manchester,1618 453678,3 door,NW
+766,Peugeot,605 XS,R,white,97000,3999,Smith Autos,Cambridge,01223 654318,3 door,C
+767,Peugeot,306 XD,R,grey,12000,2550,Smith Autos,Cambridge,01223 654318,VGC,C
+768,Peugeot,505 L,R,red,19000,995,Daves Used Cars,Gravesend,01474 876098,aircon,SE
+769,Peugeot,106 XL,P,blue,10000,7500,Wrights Quality Cars,Liverpool,01514 567843,MOT,NW
+770,Mercedes,E320,N,white,94000,850,Nixons Used Autos,Liverpool,01514 561235,MOT,NW
+771,Mercedes,Kompressor,L,green,39000,899,Daves Used Cars,Gravesend,01474 876098,VGC,SE
+772,Mercedes,SL300,P,yellow,41000,2000,Wrights Quality Cars,Liverpool,01514 567843,MOT,NW
+773,Mercedes,SL500,N,red,42000,1050,Nixons Used Autos,Liverpool,01514 561235,VGC,NW
+774,Mercedes,A200,R,pink,46000,1850,Daves Used Cars,Gravesend,01474 876098,aircon,SE
+775,Mercedes,C320,S,white,57000,2000,Wrights Quality Cars,Liverpool,01514 567843,MOT,NW
+776,Mercedes,C220,L,grey,58000,2100,Nixons Used Autos,Liverpool,01514 561235,aircon,NW
+777,Peugeot,205 XE,K,red,51000,300,Acme Autos,Colchester,01206 452345,VGC,E
+778,Peugeot,306 XL,K,blue,62000,550,Acme Autos,Colchester,01206 452345,MOT,E
+779,Peugeot,205 D,L,white,103000,2380,University Motors,Cambridge,01223 768956,MOT,C
+780,Peugeot,205 GTI,P,green,93000,75,University Motors,Cambridge,01223 768956,3 door,C
+781,Peugeot,405 GT,N,yellow,21000,8600,Smith Autos,Cambridge,01223 654318,VGC,C
+782,Peugeot,605 XS,R,red,17000,25,Weldit Used Cars,Inverness,01463 741514,MOT,N
+783,Peugeot,306 XD,S,pink,14000,6200,Tidy Cars,Peterborough,01733 231456,VGC,E
+784,Peugeot,505 L,S,white,88000,125,Hudson Used Cars,Clacton on Sea,01255 423161,VGC,E
+785,Peugeot,106 XL,R,grey,82000,790,Bodgit Quality Cars,Southport,01704 567854,aircon,NW
+786,Isuzu,Trooper,P,red,49000,12999,Weldit Used Cars,Inverness,01463 741514,aircon,N
+787,Jeep,Cherokee,L,blue,40000,4500,Tidy Cars,Peterborough,01733 231456,VGC,E
+788,Jeep,Cherokee,M,white,16000,3299,Hudson Used Cars,Clacton on Sea,01255 423161,3 door,E
+789,Kia,Pride,L,green,13000,830,Bodgit Quality Cars,Southport,01704 567854,3 door,NW
+790,Kia,Pride,K,yellow,77000,1299,Port Erin,Isle of Man,01624 453678,3 door,NW
+791,Kia,Pride,H,red,53000,34000,Weldit Used Cars,Inverness,01463 741514,VGC,N
+792,Kia,Pride,G,pink,73000,5600,Tidy Cars,Peterborough,01733 231456,aircon,E
+793,Lexus,LS 400,H,white,89000,3499,Hudson Used Cars,Clacton on Sea,01255 423161,MOT,E
+794,Lexus,LS400,K,grey,97000,2899,Bodgit Quality Cars,Southport,01704 567854,MOT,NW
+795,Lotus,Elan,L,red,12000,3450,Fixitt Car Dealers,Portree,01478 576894,VGC,N
+796,Lotus,Elite,P,blue,19000,4400,Tidy Cars,Peterborough,01733 231456,MOT,E
+797,Lotus,Eclat,R,white,10000,4650,Tidy Cars,Peterborough,01733 231456,VGC,E
+798,VW,Golf Gti,R,green,94000,15500,Fixitt Car Dealers,Portree,01478 576894,aircon,N
+799,VW,Passat,S,yellow,8500,13500,Hudson Used Cars,Clacton on Sea,01255 423161,MOT,E
+800,Daewoo,Espero,S,red,22500,14500,Off Road Sales,Torquay,01803 323014,aircon,W
+801,Daewoo,Nexia,S,pink,35500,12500,Rook Used Cars,Exeter,01392 460753,VGC,SW
+802,Daewoo,Nexia,N,white,12500,9999,Rook Used Cars,Exeter,01392 460753,MOT,SW
+803,VW,Polo,N,grey,12000,3500,Sports Cars,Nottingham,01158 678954,MOT,C
+804,Volvo,360,N,red,22500,3550,Sports Cars,Nottingham,01158 678954,3 door,C
+805,Volvo,850,P,blue,65500,4500,Daves Used Cars,Gravesend,01474 876098,VGC,SE
+806,Vauxhall,Corsa,M,white,12400,2550,Wrights Quality Cars,Liverpool,01514 567843,MOT,NW
+807,Vauxhall,Cavalier,M,green,26500,3999,Nixons Used Autos,Liverpool,01514 561235,VGC,NW
+808,Vauxhall,Cavalier,S,yellow,32500,2550,Daves Used Cars,Gravesend,01474 876098,VGC,SE
+809,Vauxhall,Corsa,R,red,24500,995,Wrights Quality Cars,Liverpool,01514 567843,aircon,NW
+810,Ford,Escort,R,pink,95500,7500,Nixons Used Autos,Liverpool,01514 561235,aircon,NW
+811,Ford,Escort,C,white,45600,850,Daves Used Cars,Gravesend,01474 876098,VGC,SE
+812,Ford,Escort,D,grey,55700,899,Wrights Quality Cars,Liverpool,01514 567843,3 door,NW
+813,Ford,Escort,F,red,33000,2000,Nixons Used Autos,Liverpool,01514 561235,3 door,NW
+814,Ford,Escort,G,blue,23000,1050,Acme Autos,Colchester,01206 452345,3 door,E
+815,Ford,Escort,H,white,15000,1850,Acme Autos,Colchester,01206 452345,VGC,E
+816,Ford,Escort,J,green,65500,2000,University Motors,Cambridge,01223 768956,aircon,C
+817,Ford,Fiesta,J,yellow,12400,2100,University Motors,Cambridge,01223 768956,MOT,C
+818,Ford,Fiesta,K,red,26500,300,Smith Autos,Cambridge,01223 654318,MOT,C
+819,Ford,Fiesta,L,pink,32500,550,Station Cars,Manchester,01617 453678,VGC,N
+820,Ford,Fiesta,K,white,24500,2380,Station Cars,Manchester,1618 453678,MOT,NW
+821,Ford,Fiesta,L,grey,95500,75,Smith Autos,Cambridge,01223 654318,VGC,C
+822,Ford,Fiesta,P,red,45600,8600,Smith Autos,Cambridge,01223 654318,aircon,C
+823,Ford,Fiesta,N,blue,55700,25,Wrights Quality Cars,Liverpool,01514 567843,MOT,NW
+824,Ford,Fiesta,R,white,33000,6200,Wrights Quality Cars,Liverpool,01514 567843,aircon,NW
+825,Ford,Fiesta,S,green,23000,125,Wrights Quality Cars,Liverpool,01514 567843,VGC,NW
+826,Ford,Fiesta,S,yellow,15000,790,Acme Autos,Colchester,01206 452345,MOT,E
+827,Ford,Fiesta,R,red,76900,12999,Acme Autos,Colchester,01206 452345,MOT,E
+828,Ford,Fiesta,P,pink,45000,4500,Nixons Used Autos,Liverpool,01514 561235,3 door,NW
+829,Ford,Fiesta,G,white,23000,3299,Nixons Used Autos,Liverpool,01514 561235,VGC,NW
+830,Ford,Fiesta,L,grey,109000,830,Nixons Used Autos,Liverpool,01514 561235,MOT,NW
+831,Ford,Sierra,M,red,98000,1299,Nixons Used Autos,Liverpool,01514 561235,VGC,NW
+832,Ford,Sierra,R,red,34000,34000,Nippon Sales,Maldon,01621 456324,MOT,E
+833,Ford,Sierra,S,white,45000,5600,Nippon Sales,Maldon,01621 456324,VGC,E
+834,Ford,Sierra,G,blue,23000,3499,Nippon Sales,Maldon,01621 456324,VGC,E
+835,Ford,Sierra,L,lemon,109000,2899,The Car Shop,Chester,01344 768970,Lady owner,NW
+836,Ford,Sierra,M,orange,98000,3450,Frank's Car Sales,Stockton,01677 434210,FSH,NE
+837,Ford,Sierra,R,green,34000,4400,Car-U-Like,Portsmouth,01233 872222,Stereo,S
+838,Ford,Sierra,S,silver,45000,4650,Wheels of Croydon,Croydon,0181 788 5333,1 owner,S
+839,Ford,Sierra,G,blue,23000,15500,Bristol Motors,Bristol,0117 455 3211,Any trial,W
+840,Ford,Sierra,L,white,109000,13500,McGovern's Cars,Glasgow,0141 544 9519,Used daily,N
+841,Ford,Sierra,M,red,98000,14500,Reliable Harry's,Clapham,0171 556 3288,T&T,S
+842,Ford,Sierra,R,green,34000,12500,Dalton Car Sales,Middlesbrough,01155 545889,Radio,NE
+844,Ford,Mondeo,R,blue,34000,3500,Prestige Vehicles,Edinburgh,0131 766 4521,Used daily,N
+846,Ford,Mondeo,G,red,55000,4500,Nippon Sales,Maldon,01621 456324,Radio,E
+847,Ford,Mondeo,L,green,66000,2550,The Car Shop,Chester,01344 768970,VGC,NW
+848,Ford,Mondeo,M,silver,34000,3999,Frank's Car Sales,Stockton,01677 434210,MOT,NE
+849,Ford,Mondeo,P,blue,56000,2550,Car-U-Like,Portsmouth,01233 872222,VGC,S
+850,Ford,Mondeo,G,white,34000,995,Wheels of Croydon,Croydon,0181 788 5333,MOT,S
+851,Ford,Mondeo,R,red,44000,7500,Bristol Motors,Bristol,0117 455 3211,VGC,W
+852,Ford,Mondeo,S,black,55000,850,McGovern's Cars,Glasgow,0141 544 9519,VGC,N
+853,Ford,Mondeo,S,bronze,88000,899,Reliable Harry's,Clapham,0171 556 3288,5-door,S
+854,Peugeot,106,R,yellow,23000,2000,Dalton Car Sales,Middlesbrough,01155 545889,Immac,NE
+856,Peugeot,106,R,gold,33000,1850,Prestige Vehicles,Edinburgh,0131 766 4521,Lady owner,N
+858,Peugeot,306,N,green,41000,2100,Nippon Sales,Maldon,01621 456324,Stereo,E
+859,Peugeot,306,L,silver,42000,300,The Car Shop,Chester,01344 768970,1 owner,NW
+860,Peugeot,306,P,blue,46000,550,Frank's Car Sales,Stockton,01677 434210,Any trial,NE
+861,Peugeot,405,S,white,57000,2380,Car-U-Like,Portsmouth,01233 872222,Used daily,S
+862,Peugeot,405,S,blue,58000,75,Wheels of Croydon,Croydon,0181 788 5333,T&T,S
+863,Peugeot,405,R,lemon,51000,8600,Bristol Motors,Bristol,0117 455 3211,Radio,W
+864,Peugeot,605,R,orange,62000,25,McGovern's Cars,Glasgow,0141 544 9519,VGC,N
+865,Peugeot,205,R,green,103000,6200,Reliable Harry's,Clapham,0171 556 3288,VGC,S
+866,Peugeot,205,P,silver,93000,125,Dalton Car Sales,Middlesbrough,01155 545889,5-door,NE
+868,Peugeot,205,L,white,17000,12999,Prestige Vehicles,Edinburgh,0131 766 4521,MOT,N
+870,Peugeot,406,N,green,88000,3299,Nippon Sales,Maldon,01621 456324,FSH,E
+871,Renault,11,R,silver,82000,830,The Car Shop,Chester,01344 768970,Stereo,NW
+872,Renault,11,S,blue,49000,1299,Frank's Car Sales,Stockton,01677 434210,1 owner,NE
+873,Renault,11,L,white,40000,34000,Car-U-Like,Portsmouth,01233 872222,Any trial,S
+874,Renault,11,K,red,16000,5600,Wheels of Croydon,Croydon,0181 788 5333,Used daily,S
+875,Renault,21,K,green,13000,3499,Bristol Motors,Bristol,0117 455 3211,T&T,W
+876,Renault,21,L,silver,77000,2899,McGovern's Cars,Glasgow,0141 544 9519,Radio,N
+877,Renault,21,P,blue,53000,3450,Reliable Harry's,Clapham,0171 556 3288,Any trial,S
+878,Renault,Clio,N,lemon,73000,4400,Dalton Car Sales,Middlesbrough,01155 545889,Used daily,NE
+880,Renault,Clio,S,green,97000,15500,Prestige Vehicles,Edinburgh,0131 766 4521,Radio,N
+882,Renault,Clio,R,blue,19000,14500,Nippon Sales,Maldon,01621 456324,Very fast,E
+883,Renault,Clio,P,white,10000,12500,The Car Shop,Chester,01344 768970,Alloys,NW
+884,Renault,Espace,L,green,94000,9999,Frank's Car Sales,Stockton,01677 434210,MOT,NE
+885,Renault,Espace,M,black,39000,3500,Car-U-Like,Portsmouth,01233 872222,MOT,S
+886,Renault,Espace,L,red,41000,3550,Wheels of Croydon,Croydon,0181 788 5333,VGC,S
+887,BMW,321,K,white,42000,4500,Bristol Motors,Bristol,0117 455 3211,MOT,W
+888,BMW,316,H,blue,46000,2550,McGovern's Cars,Glasgow,0141 544 9519,VGC,N
+889,BMW,316,G,red,57000,3999,Reliable Harry's,Clapham,0171 556 3288,aircon,S
+890,BMW,316,H,pale blue,58000,2550,Dalton Car Sales,Middlesbrough,01155 545889,MOT,NE
+892,BMW,316,L,grey,62000,7500,Prestige Vehicles,Edinburgh,0131 766 4521,VGC,N
+894,Ford,Escort,R,black,93000,899,Nippon Sales,Maldon,01621 456324,MOT,E
+895,Ford,Escort,R,red,21000,2000,The Car Shop,Chester,01344 768970,3 door,NW
+896,Ford,Escort,S,grey,17000,1050,Frank's Car Sales,Stockton,01677 434210,VGC,NE
+897,Ford,Escort,S,blue,14000,1850,Car-U-Like,Portsmouth,01233 872222,MOT,S
+898,Ford,Escort,S,pink,88000,2000,Wheels of Croydon,Croydon,0181 788 5333,VGC,S
+899,Ford,Escort,N,green,82000,2100,Bristol Motors,Bristol,0117 455 3211,VGC,W
+900,Ford,Escort,N,yellow,49000,300,McGovern's Cars,Glasgow,0141 544 9519,aircon,N
+901,Ford,Fiesta,N,red,40000,550,Reliable Harry's,Clapham,0171 556 3288,aircon,S
+902,Ford,Fiesta,P,grey,16000,2380,Dalton Car Sales,Middlesbrough,01155 545889,VGC,NE
+904,Ford,Fiesta,M,green,77000,8600,Prestige Vehicles,Edinburgh,0131 766 4521,3 door,N
+906,Ford,Fiesta,R,red,73000,6200,Wrights Quality Cars,Liverpool,01514 567843,VGC,NW
+907,Ford,Fiesta,R,blue,89000,125,Nixons Used Autos,Liverpool,01514 561235,aircon,NW
+908,Ford,Fiesta,C,red,97000,790,Daves Used Cars,Gravesend,01474 876098,MOT,SE
+909,Ford,Fiesta,D,blue,12000,12999,Wrights Quality Cars,Liverpool,01514 567843,MOT,NW
+910,Ford,Fiesta,F,white,19000,4500,Nixons Used Autos,Liverpool,01514 561235,VGC,NW
+911,Ford,Fiesta,G,green,10000,3299,Daves Used Cars,Gravesend,01474 876098,MOT,SE
+912,Ford,Fiesta,H,yellow,94000,830,Wrights Quality Cars,Liverpool,01514 567843,VGC,NW
+913,Ford,Fiesta,J,red,39000,1299,Nixons Used Autos,Liverpool,01514 561235,aircon,NW
+914,Ford,Fiesta,J,pink,41000,34000,Acme Autos,Colchester,01206 452345,MOT,E
+915,Ford,Sierra,K,white,42000,5600,Acme Autos,Colchester,01206 452345,aircon,E
+916,Ford,Sierra,L,grey,46000,3499,University Motors,Cambridge,01223 768956,VGC,C
+917,Ford,Sierra,K,red,57000,2899,University Motors,Cambridge,01223 768956,MOT,C
+918,Ford,Sierra,L,blue,58000,3450,Smith Autos,Cambridge,01223 654318,MOT,C
+919,Ford,Sierra,P,white,51000,4400,Weldit Used Cars,Inverness,01463 741514,3 door,N
+920,Ford,Sierra,N,green,62000,4650,Tidy Cars,Peterborough,01733 231456,VGC,E
+921,Ford,Sierra,R,yellow,103000,15500,Hudson Used Cars,Clacton on Sea,01255 423161,MOT,E
+922,Ford,Sierra,S,red,93000,13500,Bodgit Quality Cars,Southport,01704 567854,VGC,NW
+923,Ford,Sierra,S,pink,21000,14500,Weldit Used Cars,Inverness,01463 741514,VGC,N
+924,Ford,Sierra,R,white,17000,12500,Tidy Cars,Peterborough,01733 231456,VGC,E
+925,Ford,Sierra,P,grey,14000,9999,Hudson Used Cars,Clacton on Sea,01255 423161,3 door,E
+926,Ford,Sierra,G,red,88000,3500,Bodgit Quality Cars,Southport,01704 567854,3 door,NW
+927,Ford,Sierra,L,blue,82000,3550,Port Erin,Isle of Man,01624 453678,3 door,NW
+928,Ford,Mondeo,M,white,49000,4500,Weldit Used Cars,Inverness,01463 741514,VGC,N
+929,Ford,Mondeo,R,green,40000,2550,Tidy Cars,Peterborough,01733 231456,aircon,E
+930,Ford,Mondeo,S,yellow,16000,3999,Hudson Used Cars,Clacton on Sea,01255 423161,MOT,E
+931,Ford,Mondeo,G,red,13000,2550,Bodgit Quality Cars,Southport,01704 567854,MOT,NW
+932,Ford,Mondeo,L,pink,77000,995,Fixitt Car Dealers,Portree,01478 576894,VGC,N
+933,Ford,Mondeo,M,white,53000,7500,Tidy Cars,Peterborough,01733 231456,MOT,E
+934,Ford,Mondeo,R,grey,73000,850,Tidy Cars,Peterborough,01733 231456,VGC,E
+935,Ford,Mondeo,S,red,89000,899,Fixitt Car Dealers,Portree,01478 576894,aircon,N
+936,Ford,Mondeo,G,blue,97000,2000,Hudson Used Cars,Clacton on Sea,01255 423161,MOT,E
+937,Ford,Mondeo,L,white,12000,1050,Off Road Sales,Torquay,01803 323014,aircon,W
+938,Peugeot,106,M,green,19000,1850,Rook Used Cars,Exeter,01392 460753,VGC,SW
+939,Peugeot,106,R,yellow,10000,2000,Rook Used Cars,Exeter,01392 460753,MOT,SW
+940,Peugeot,106,S,red,94000,2100,Sports Cars,Nottingham,01158 678954,MOT,C
+941,Peugeot,106,R,pink,39000,300,Sports Cars,Nottingham,01158 678954,3 door,C
+942,Peugeot,306,S,white,41000,550,Daves Used Cars,Gravesend,01474 876098,VGC,SE
+943,Peugeot,306,G,grey,42000,2380,Wrights Quality Cars,Liverpool,01514 567843,MOT,NW
+944,Peugeot,306,L,red,46000,75,Nixons Used Autos,Liverpool,01514 561235,VGC,NW
+945,Peugeot,405,M,blue,57000,8600,Daves Used Cars,Gravesend,01474 876098,VGC,SE
+946,Peugeot,405,P,white,58000,25,Wrights Quality Cars,Liverpool,01514 567843,aircon,NW
+947,Peugeot,405,G,green,51000,6200,Nixons Used Autos,Liverpool,01514 561235,aircon,NW
+948,Peugeot,605,R,yellow,62000,125,Daves Used Cars,Gravesend,01474 876098,VGC,SE
+949,Peugeot,205,S,red,103000,790,Wrights Quality Cars,Liverpool,01514 567843,3 door,NW
+950,Peugeot,205,S,pink,93000,12999,Nixons Used Autos,Liverpool,01514 561235,3 door,NW
+951,Peugeot,205,R,white,21000,4500,Acme Autos,Colchester,01206 452345,3 door,E
+952,Peugeot,205,R,grey,17000,3299,Acme Autos,Colchester,01206 452345,VGC,E
+953,Peugeot,406,R,red,14000,830,University Motors,Cambridge,01223 768956,aircon,C
+954,Peugeot,406,P,blue,88000,1299,University Motors,Cambridge,01223 768956,MOT,C
+955,Ford,Escort,N,white,82000,34000,Smith Autos,Cambridge,01223 654318,MOT,C
+956,Ford,Escort,L,green,49000,5600,Station Cars,Manchester,01617 453678,VGC,N
+957,Ford,Escort,P,yellow,40000,3499,Station Cars,Manchester,1618 453678,MOT,NW
+958,Ford,Escort,S,red,16000,2899,Smith Autos,Cambridge,01223 654318,VGC,C
+959,Ford,Escort,S,pink,13000,3450,Smith Autos,Cambridge,01223 654318,aircon,C
+960,Ford,Escort,R,white,77000,4400,Wrights Quality Cars,Liverpool,01514 567843,MOT,NW
+961,Ford,Escort,R,grey,53000,4650,Wrights Quality Cars,Liverpool,01514 567843,aircon,NW
+962,Ford,Fiesta,R,red,73000,15500,Wrights Quality Cars,Liverpool,01514 567843,VGC,NW
+963,Ford,Fiesta,P,blue,89000,13500,Acme Autos,Colchester,01206 452345,MOT,E
+964,Ford,Fiesta,N,white,97000,14500,Acme Autos,Colchester,01206 452345,MOT,E
+965,Ford,Fiesta,L,green,12000,12500,Nixons Used Autos,Liverpool,01514 561235,3 door,NW
+966,Ford,Fiesta,P,yellow,19000,9999,Nixons Used Autos,Liverpool,01514 561235,VGC,NW
+967,Ford,Fiesta,N,red,10000,3500,Nixons Used Autos,Liverpool,01514 561235,MOT,NW
+968,Ford,Fiesta,R,pink,94000,3550,Nixons Used Autos,Liverpool,01514 561235,VGC,NW
+969,Ford,Fiesta,S,white,8500,4500,Nippon Sales,Maldon,01621 456324,MOT,E
+970,Ford,Fiesta,L,grey,22500,2550,Nippon Sales,Maldon,01621 456324,VGC,E
+971,Ford,Fiesta,K,red,35500,3999,Nippon Sales,Maldon,01621 456324,VGC,E
+972,Ford,Fiesta,K,blue,12500,2550,The Car Shop,Chester,01344 768970,5-door,NW
+973,Ford,Fiesta,L,white,12000,995,Frank's Car Sales,Stockton,01677 434210,Immac,NE
+974,Ford,Fiesta,P,green,22500,7500,Car-U-Like,Portsmouth,01233 872222,MOT,S
+975,Ford,Fiesta,N,yellow,65500,850,Wheels of Croydon,Croydon,0181 788 5333,Lady owner,S
+976,Ford,Sierra,R,red,12400,899,Bristol Motors,Bristol,0117 455 3211,FSH,W
+977,Ford,Sierra,S,pink,26500,2000,McGovern's Cars,Glasgow,0141 544 9519,Stereo,N
+978,Ford,Sierra,S,white,32500,1050,Reliable Harry's,Clapham,0171 556 3288,1 owner,S
+979,Ford,Sierra,R,grey,24500,1850,Dalton Car Sales,Middlesbrough,01155 545889,Any trial,NE
+981,Ford,Sierra,L,blue,45600,2100,Prestige Vehicles,Edinburgh,0131 766 4521,T&T,N
+983,Ford,Sierra,L,green,33000,550,Nippon Sales,Maldon,01621 456324,VGC,E
+984,Ford,Sierra,K,yellow,23000,2380,The Car Shop,Chester,01344 768970,VGC,NW
+985,Ford,Sierra,H,red,15000,75,Frank's Car Sales,Stockton,01677 434210,5-door,NE
+986,Ford,Sierra,G,pink,12500,8600,Car-U-Like,Portsmouth,01233 872222,Immac,S
+987,Ford,Sierra,H,white,12000,25,Wheels of Croydon,Croydon,0181 788 5333,MOT,S
+988,Ford,Sierra,K,grey,22500,6200,Bristol Motors,Bristol,0117 455 3211,Lady owner,W
+989,Ford,Mondeo,L,red,65500,125,McGovern's Cars,Glasgow,0141 544 9519,FSH,N
+990,Ford,Mondeo,P,blue,12400,790,Reliable Harry's,Clapham,0171 556 3288,Stereo,S
+991,Ford,Mondeo,R,white,26500,12999,Dalton Car Sales,Middlesbrough,01155 545889,1 owner,NE
+993,Ford,Mondeo,S,yellow,24500,3299,Prestige Vehicles,Edinburgh,0131 766 4521,Used daily,N
+995,Ford,Mondeo,S,pink,45600,1299,Nippon Sales,Maldon,01621 456324,Radio,E
+996,Ford,Mondeo,N,white,55700,34000,The Car Shop,Chester,01344 768970,Any trial,NW
+997,Ford,Mondeo,N,grey,33000,5600,Frank's Car Sales,Stockton,01677 434210,Used daily,NE
+998,Ford,Mondeo,N,red,23000,3499,Car-U-Like,Portsmouth,01233 872222,T&T,S
+999,Ford,Mondeo,R,red,7000,2899,Wheels of Croydon,Croydon,0181 788 5333,Radio,S
+1000,Ford,Mondeo,P,black,123000,2199,Wheels of Croydon,Croydon,0181 788 5333,Radio,S
+319,Honda,Civic,R,red,23000,7525,Dover Cars and Repairs,Dover,01556 781000,Lady owner,SE
+329,Fiat,Tipo,G,green,23000,75,Northern Car Warehouse,Newcastle,0181 677 3371,T&T,N
+331,Fiat,Tipo,M,red,98000,25,Dover Cars and Repairs,Dover,01556 781000,Stunning,SE
+341,Nissan,Bluebird,G,pink,44000,5600,Northern Car Warehouse,Newcastle,0181 677 3371,aircon,N
+343,Nissan,Sunny,M,grey,88000,2899,Dover Cars and Repairs,Dover,01556 781000,MOT,SE
+353,VW,Passat,N,red,51000,3550,Northern Car Warehouse,Newcastle,0181 677 3371,3 door,N
+355,Toyota,Landcruiser,P,white,103000,2550,Dover Cars and Repairs,Dover,01556 781000,3 door,SE
+430,Vauxhall,Astra,L,red,94000,3500,Northern Car Warehouse,Newcastle,0181 677 3371,Any trial,N
+432,Vauxhall,Omega,P,white,41000,4500,Dover Cars and Repairs,Dover,01556 781000,T&T,SE
+442,VW,Golf,L,grey,17000,1850,Northern Car Warehouse,Newcastle,0181 677 3371,MOT,N
+444,VW,Passat,N,red,88000,2100,Dover Cars and Repairs,Dover,01556 781000,FSH,SE
+454,Renault,Megane,S,green,97000,2500,Northern Car Warehouse,Newcastle,0181 677 3371,Immac,N
+456,Renault,Safrane,R,blue,19000,899,Dover Cars and Repairs,Dover,01556 781000,Lady owner,SE
+466,Peugeot,205 XE,L,yellow,12400,17899,Northern Car Warehouse,Newcastle,0181 677 3371,T&T,N
+468,Peugeot,205 D,R,gold,32500,3499,Dover Cars and Repairs,Dover,01556 781000,Stunning,SE
+478,Mercedes,SL500,M,silver,26500,7799,Northern Car Warehouse,Newcastle,0181 677 3371,aircon,N
+480,Mercedes,C320,R,white,24500,4500,Dover Cars and Repairs,Dover,01556 781000,MOT,SE
+490,Peugeot,106 XL,L,lemon,109000,790,Northern Car Warehouse,Newcastle,0181 677 3371,3 door,N
+492,BMW,525 SE,L,green,34000,4500,Dover Cars and Repairs,Dover,01556 781000,3 door,SE
+501,Jaguar,XJS,L,red,98000,4400,Didier Used Cars and Trucks,Coventry,0121 680 8733,MOT,C
+502,Toyota,Landcruiser,M,pale blue,34000,4650,Didier Used Cars and Trucks,Coventry,122 680 8733,aircon,C
+503,Mercedes,E220,R,blue,56000,15500,Didier Used Cars and Trucks,Coventry,123 680 8733,VGC,C
+504,Landrover,Discovery,S,grey,34000,13500,Didier Used Cars and Trucks,Coventry,124 680 8733,MOT,C
+505,VW,Passat,G,yellow,44000,14500,Didier Used Cars and Trucks,Coventry,125 680 8733,MOT,C
+506,Jaguar,XJS,L,black,55000,12500,Didier Used Cars and Trucks,Coventry,126 680 8733,3 door,C
+507,Toyota,Landcruiser,M,red,66000,9999,Didier Used Cars and Trucks,Coventry,127 680 8733,VGC,C
+508,Mercedes,E220,R,grey,34000,3500,Didier Used Cars and Trucks,Coventry,128 680 8733,MOT,C
+509,Landrover,Discovery,S,blue,56000,3550,Didier Used Cars and Trucks,Coventry,129 680 8733,VGC,C
+601,Renault,Megane,R,red,39000,300,Northern Car Warehouse,Newcastle,0181 677 3371,FSH,N
+603,Renault,Safrane,R,white,42000,450,Dover Cars and Repairs,Dover,01556 781000,1 owner,SE
+614,VW,Golf,R,yellow,88000,750,Northern Car Warehouse,Newcastle,182 677 3371,VGC,N
+616,VW,Golf,P,pink,49000,12999,Dover Cars and Repairs,Dover,1557 781000,VGC,SE
+627,Mercedes,E320,P,grey,10000,18499,Northern Car Warehouse,Newcastle,183 677 3371,T&T,N
+629,Mercedes,SL300,R,blue,8500,8399,Dover Cars and Repairs,Dover,1558 781000,VGC,SE
+640,Peugeot,306 XD,H,blue,95500,2380,Northern Car Warehouse,Newcastle,184 677 3371,T&T,N
+642,Peugeot,106 XL,L,orange,55700,8600,Dover Cars and Repairs,Dover,1559 781000,Any trial,SE
+653,VW,Passat,M,green,55700,5600,Northern Car Warehouse,Newcastle,185 677 3371,VGC,N
+655,Toyota,Landcruiser,S,blue,23000,2899,Dover Cars and Repairs,Dover,1560 781000,MOT,SE
+668,BMW,328i,L,blue,45000,34000,Northern Car Warehouse,Newcastle,182 677 3371,3 door,N
+670,Rover,3500i,N,orange,109000,3499,Dover Cars and Repairs,Dover,1557 781000,3 door,SE
+681,Austin,Montego,G,green,44000,3550,Northern Car Warehouse,Newcastle,183 677 3371,VGC,N
+683,BMW,525i,M,blue,88000,2550,Dover Cars and Repairs,Dover,1558 781000,MOT,SE
+843,Ford,Sierra,S,silver,56000,9999,Northern Car Warehouse,Newcastle,0181 677 3371,Any trial,N
+845,Ford,Mondeo,S,white,44000,3550,Dover Cars and Repairs,Dover,01556 781000,T&T,SE
+855,Peugeot,106,R,orange,34000,1050,Northern Car Warehouse,Newcastle,0181 677 3371,MOT,N
+857,Peugeot,106,P,red,39000,2000,Dover Cars and Repairs,Dover,01556 781000,FSH,SE
+867,Peugeot,205,N,blue,21000,790,Northern Car Warehouse,Newcastle,0181 677 3371,Immac,N
+869,Peugeot,406,P,red,14000,4500,Dover Cars and Repairs,Dover,01556 781000,Lady owner,SE
+879,Renault,Clio,R,orange,89000,4650,Northern Car Warehouse,Newcastle,0181 677 3371,T&T,N
+881,Renault,Clio,S,silver,12000,13500,Dover Cars and Repairs,Dover,01556 781000,Stunning,SE
+891,BMW,321,K,blue,51000,995,Northern Car Warehouse,Newcastle,0181 677 3371,aircon,N
+893,BMW,316,P,yellow,103000,850,Dover Cars and Repairs,Dover,01556 781000,MOT,SE
+903,Ford,Fiesta,M,green,13000,75,Northern Car Warehouse,Newcastle,0181 677 3371,3 door,N
+905,Ford,Fiesta,S,white,53000,25,Dover Cars and Repairs,Dover,01556 781000,3 door,SE
+980,Ford,Sierra,P,red,95500,2000,Northern Car Warehouse,Newcastle,0181 677 3371,Used daily,N
+982,Ford,Sierra,M,white,55700,300,Dover Cars and Repairs,Dover,01556 781000,Radio,SE
+992,Ford,Mondeo,R,green,32500,4500,Northern Car Warehouse,Newcastle,0181 677 3371,Any trial,N
+994,Ford,Mondeo,S,red,95500,830,Dover Cars and Repairs,Dover,01556 781000,T&T,SE
+156,Toyota,Landcruiser,R,white,98000,3499,Northern Car Warehouse,Newcastle,0181 677 3371,MOT,N
+158,Landrover,Discovery,G,green,45000,1699,Dover Cars and Repairs,Dover,01556 781000,FSH,SE
+168,Daewoo,Subina,P,red,34000,4500,Northern Car Warehouse,Newcastle,0181 677 3371,Immac,N
+170,Fiat,Punto,R,silver,34000,8275,Dover Cars and Repairs,Dover,01556 781000,Lady owner,SE
+180,Fiat,Punto,N,red,46000,4500,Northern Car Warehouse,Newcastle,0181 677 3371,T&T,N
+182,Austin,Metro,S,silver,58000,830,Dover Cars and Repairs,Dover,01556 781000,VGC,SE
+192,Austin,Metro,R,silver,49000,13500,Northern Car Warehouse,Newcastle,0181 677 3371,FSH,N
+194,Vauxhall,Astra,L,white,16000,12500,Dover Cars and Repairs,Dover,01556 781000,1 owner,SE
+204,Bentley,Mulsanne,R,lemon,94000,850,Northern Car Warehouse,Newcastle,0181 677 3371,Lady owner,N
+206,Vauxhall,Cavalier,S,green,41000,2000,Dover Cars and Repairs,Dover,01556 781000,Stereo,SE
+216,Vauxhall,Vectra,R,green,17000,12500,Northern Car Warehouse,Newcastle,0181 677 3371,Stunning,N
+218,Vauxhall,Astra,C,blue,88000,15500,Dover Cars and Repairs,Dover,01556 781000,Alloys,SE
+293,BMW,525 SE,R,red,12000,899,Northern Car Warehouse,Newcastle,0181 677 3371,Any trial,N
+295,BMW,735i,S,white,65500,13500,Dover Cars and Repairs,Dover,01556 781000,T&T,SE
+305,BMW,321,R,white,15000,1299,Northern Car Warehouse,Newcastle,0181 677 3371,MOT,N
+307,BMW,316,D,red,12400,5499,Dover Cars and Repairs,Dover,01556 781000,FSH,SE
+317,Honda,Accord,P,green,76900,8399,Northern Car Warehouse,Newcastle,0181 677 3371,Immac,N

@@ -1,0 +1,41 @@
+#topNavigation, #navigation {
+    background-color: #AC94D4;
+    color:#080808;
+}
+
+ul {
+    font-size: 1.3em;
+    color: #0D0D0D;
+}
+
+#socialMedia {
+    background-color: #B5A2D4;
+    color: #080808;
+}
+
+.mainFooter {
+    background-color: #B5A2D4;
+    color: #080808
+}
+
+a {
+    color: #080808;
+}
+
+.btn-secondary {
+    width: 60%;
+}
+
+#carButton {
+    width: 20%;
+}
+
+@media(max-width: 750px) {    
+    .btn {
+            width:100%;
+    }
+    #carButton {
+        width: 100%;
+    }    
+}
+

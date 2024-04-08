@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+{% block title %}
+    {{ car.make }} {{ car.model }}
+{% endblock %}
+{% block content %}
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb mt-4">
+      <li class="breadcrumb-item"><a href="{{ url_for('core.index') }}">Home</a></li>
+      <li class="breadcrumb-item"><a href="{{ url_for('core.cars') }}">Cars</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Car form</li>
+    </ol>
+</nav>
+<div class="container-fluid mt-4">
+    <div class="row">
+        <div class="col-md-9 mt-4 mb-4">            
+            <div class="form-horizontal">                    
+                <h2 class="text-center">About you</h2>
+                <form method="POST">
+                    {# This hidden_tag below is a CSRF security feature #}
+                    {{ form.hidden_tag() }}
+                    <div class="row mt-3 mb-3">
+                        {{ form.name.label(class="col-2 col-form-label") }}
+                        <div class="col-md-10">
+                        {{ form.name(class="form-control form-control", placeholder="First name") }}
+                        </div>
+                    </div>                            
+                    <div class="row mt-3 mb-3">
+                        {{ form.surname.label(class="col-2 col-form-label") }}
+                        <div class="col-md-10">
+                        {{ form.surname(class="col-10 form-control form-control", placeholder="Last name") }}
+                        </div>
+                    </div>                            
+                    <div class="row mt-3 mb-3">
+                        {{ form.email.label(class="col-2 col-form-label") }}
+                        <div class="col-md-10">
+                        {{ form.email(class="col-10 form-control form-control", placeholder="Email")}}
+                        </div>
+                    </div>                            
+                    <div class="row mt-3 mb-3">
+                        {{ form.telephone.label(class="col-2 col-form-label") }}
+                        <div class="col-md-10">
+                        {{ form.telephone(class="col-10 form-control form-control", placeholder="Phone number")}}
+                        </div>
+                    </div>                            
+                    <div class="row mt-3 mb-3">
+                        {{ form.address.label(class="col-2 col-form-label") }}
+                        <div class="col-md-10">
+                        {{ form.address(class="col-10 form-control form-control", placeholder="Address")}}
+                        </div>
+                    </div>                            
+                    <div class="row mt-3 mb-3">
+                        {{ form.town.label(class="col-2 col-form-label") }}
+                        <div class="col-md-10">
+                        {{ form.town(class="col-10 form-control form-control", placeholder="Town")}}
+                        </div>
+                    </div>                            
+                    <div class="row mt-3 mb-3">
+                        {{ form.postcode.label(class="col-2 col-form-label") }}
+                        <div class="col-md-10">
+                        {{ form.postcode(class="col-10 form-control form-control", placeholder="Postcode")}}
+                        </div>
+                    </div>                            
+                    <div class="form-group">
+                        <button type="button" class="btn btn-secondary float-end" data-bs-toggle="modal" data-bs-target="#myModal">
+                            Continue
+                        </button>
+                    </div>
+                    <!-- The Modal -->
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">  
+                                <!-- Modal Header -->
+                                <div class="modal-header">                        
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>  
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <h5>Please, confirm that the data you provided in the form is correct.</h5>
+                                </div>  
+                                <!-- Modal footer -->
+                                <div class="modal-footer">                                    
+                                    {{ form.submit(class="btn btn-success")}}
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                     
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </form>                    
+            </div>            
+        </div>        
+        <div class="col-lg-3 mt-4 mb-4 text-center">
+            <div class="card bg-light"> 
+                <img class="card-img-top rounded" src="../static/JeepCherokeeWhite.png" alt="Car image">       
+                <div class="card-body">        
+                    <h4 class="card-title">{{ car.make }} {{ car.model }}</h4>
+                    <p class="card-text">Car identification number: {{ car.carIndex }}</p>                       
+                    <p class="card-text"><i class="fa-solid fa-city"></i> {{ car.town }}</p>
+                    <p class="card-text">Dealer information: {{ car.dealer }} </p>
+                    <p class="card-text">{{ car.telephone }}</p>
+                    <h3 class="card-title">£{{ car.price }}</h3>      
+                </div>
+            </div>  
+        </div>
+    </div>
+</div> 
+{% endblock %}

@@ -1,0 +1,152 @@
+{% extends "base.html" %}
+{% block title %}
+    Cars
+{% endblock %}
+{% block content %}
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb mt-4">
+      <li class="breadcrumb-item"><a href="{{ url_for('core.index') }}">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Cars</li>
+    </ol>
+</nav>
+<div class="container-fluid mt-4">
+  <div class="row">
+    <div class="col-lg-4 mt-4 mb-4">
+      <!-- Displays active filters -->
+        <div class="filters mb-4">
+          <h2>Filters</h2>
+          {% if filters.make %}<span>Make: {{ filters.make }}</span>{% endif %}
+          {% if filters.model %}<span>Model: {{ filters.model }}</span>{% endif %}
+          {% if filters.town %}<span>Town: {{ filters.town }}</span>{% endif %}
+          {% if filters.region %}<span>Region: {{ filters.region }}</span>{% endif %}
+          {% if priceFilters.minPrice %}<span>Min price: {{ priceFilters.minPrice }}</span>{% endif %}
+          {% if priceFilters.maxPrice %}<span>Max price: {{ priceFilters.maxPrice }}</span>{% endif %}
+              <!-- Clear Filters Button -->
+          <form method="get" action="{{ url_for('core.clear_filters') }}">
+            <button type="submit" class="btn btn-secondary btn-md" aria-label="Clear the filters">Clear all filters</button>
+          </form>
+        </div>
+        <form method="post" action="{{ url_for('core.filtered_cars') }}">
+          <div>
+            <select name="make" class="form-select form-select-lg mb-3", id="makeDropdown" aria-label="Select make for a car">
+              <option value="">Select Make</option>
+              {% for make in makes %}
+              <option value="{{ make[0] }}">{{ make[0] }}</option>
+              {% endfor %}
+            </select>
+          </div>
+          <div>
+            <select name="model" class="form-select form-select-lg mb-3", id="modelDropdown" aria-label="Select model for a car">
+              <option value="">Select Model</option>
+              {% for model in models %}
+              <option value="{{ model[0] }}">{{ model[0] }}</option>
+              {% endfor %}
+              </select>
+          </div>
+          <div>
+            <select name="town" class="form-select form-select-lg mb-3", id="townDropdown" aria-label="Select town for a car">
+              <option value="">Select Town</option>
+              {% for town in towns %}
+              <option value="{{ town[0] }}">{{ town[0] }}</option>
+              {% endfor %}
+            </select>
+          </div>
+          <div>
+            <select name="region" class="form-select form-select-lg mb-3", id="regionDropdown" aria-label="Select region for a car">
+              <option value="">Select Region</option>
+              {% for region in regions %}
+              <option value="{{ region[0] }}">{{ region[0] }}</option>
+              {% endfor %}
+            </select>
+          </div>          
+          <div class="input-group mb-4">
+            <span class="input-group-text">Min £</span>
+            <input type="text" name="minPrice" class="form-control form-control-lg" aria-label="Insert min amount" placeholder="min amount">
+          </div>          
+          <div class="input-group mb-4">
+            <span class="input-group-text">Max £</span>
+            <input type="text" name="maxPrice" class="form-control form-control-lg" aria-label="Insert max amount" placeholder="max amount">
+          </div>          
+          <button type="submit" class="btn btn-secondary btn-md" aria-label="Apply filters">Apply selected filters</button>
+        </form>
+    </div>
+  
+    <div class="col-lg-8 mt-4 mb-4 text-center">
+      <h2>Results</h2>
+      <!-- Display cars -->
+      {% for car in cars.items %}
+      <div class="card flex-row bg-light">        
+        <div class="card-body">
+          <div class="block"><img class="float-start img-fluid rounded" src="../static/JeepCherokeeWhite.png"/></div>
+          <h4 class="card-title">{{ car.make }}</h4>
+          <h5 class="card-subtitle mb-2 text-body-secondary">{{ car.model }}</h5>
+          <h6><i class="fa-solid fa-palette"></i> {{ car.colour }} <i class="fa-solid fa-gauge-high"></i> {{ car.miles }}</h6>
+          <h5><i class="fa-solid fa-city"></i> {{ car.town }}</h5>
+          <p class="card-text">{{ car.description }}</p>
+          <h3 class="card-title">£{{ car.price }}</h3>
+          <button type="button" class="btn btn-secondary" id="carButton" aria-label="Open modal to view more details" data-bs-toggle="modal" data-bs-target="#modal{{ car.carIndex }}">View deal</button>
+        </div>
+      </div>      
+        <!-- The Modal -->
+        <div class="modal fade" id="modal{{ car.carIndex }}">
+          <div class="modal-dialog modal-md">
+            <div class="modal-content">
+            <!-- Modal Header -->
+              <div class="modal-header">
+                <h5 class="float-start text-muted me-4">{{ car.carIndex }}</h5>
+                <h4 class="modal-title">{{ car.make }} {{ car.model }}</h4>
+                <button type="button" class="btn-close" aria-label="Close modal" data-bs-dismiss="modal"></button>
+              </div>
+            <!-- Modal body -->
+              <div class="modal-body">
+                <div class="block"><img class="float-start rounded" src="../static/JeepCherokeeWhite.png"/></div>
+                <div class="mt-4 mb-4">
+                  <h5><i class="fa-solid fa-registered"></i> {{car.reg }} <i class="fa-solid fa-gauge-high"></i> {{ car.miles }}</h5> 
+                  <h5><i class="fa-solid fa-palette"></i> {{ car.colour }}</h5>
+                  <h6><i class="fa-solid fa-circle-info"></i> {{car.description }}</h6>
+                  <h6>Region: {{ car.region }}</h6> 
+                  <h6> <i class="fa-solid fa-city"></i> {{ car.town }}</h6> 
+                  <h6><i class="fa-solid fa-briefcase"></i> {{ car.dealer }}</h6>
+                  <h6><i class="fa-solid fa-phone"></i> {{ car.telephone }}</h6>
+                </div>
+              </div>
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <h3>£{{ car.price }}</h3>
+                <a href="{{ url_for('core.carform', car_id=car.carIndex ) }}" aria-label="Buy this car" class="btn btn-success">Buy</a>
+                <button type="button" class="btn btn-danger" aria-label="Close modal" data-bs-dismiss="modal">Close</button>
+              </div>              
+            </div>
+          </div>
+        </div> 
+        {% endfor %}     
+      <nav class="mt-4" aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+          <!-- Description of dynamic route if there are session data then @core.filtered-cars if no session data then @core.cars -->
+          {% set route_name = 'core.filtered_cars' if session.get('make') or session.get('model') or session.get('town') or session.get('region') or session.get('minPrice') or session.get('maxPrice') else 'core.cars' %}
+          {% if cars.has_prev %}
+            <li class="page-item">
+              <!-- Dynamic routing in url_for function to access @core.cars or @core.filtered-cars according to session data -->
+              <a class="page-link" href="{{ url_for(route_name, page=cars.prev_num, make=session.get('make'), model=session.get('model'), town=session.get('town'), region=session.get('region'), minPrice=session.get('minPrice'), maxPrice=session.get('maxPrice')) }}">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+          {% endif %}
+          {% for page_num in cars.iter_pages() %}
+            <li class="page-item {% if page_num == cars.page %}active{% endif %}">
+              <a class="page-link" href="{{ url_for(route_name, page=page_num, make=session.get('make'), model=session.get('model'), town=session.get('town'), region=session.get('region'), minPrice=session.get('minPrice'), maxPrice=session.get('maxPrice')) }}">{{ page_num }}</a>
+            </li>
+          {% endfor %}
+          {% if cars.has_next %}
+            <li class="page-item">
+              <a class="page-link" href="{{ url_for(route_name, page=cars.next_num, make=session.get('make'), model=session.get('model'), town=session.get('town'), region=session.get('region'), minPrice=session.get('minPrice'), maxPrice=session.get('maxPrice')) }}">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          {% endif %}
+        </ul>
+      </nav>      
+    </div>
+  </div>
+</div>
+{% endblock %}

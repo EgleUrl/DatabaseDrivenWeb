@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% block title %}
+  Thank you
+{% endblock %}
+{% block content %}
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+  <ol class="breadcrumb mt-4">
+    <li class="breadcrumb-item"><a href="{{ url_for('core.index') }}">Home</a></li>
+    <li class="breadcrumb-item"><a href="{{ url_for('core.cars') }}">Cars</a></li>
+    <!-- Disabled because we do not wnat the client to fill form or pay twice -->
+    <li class="breadcrumb-item" aria-disabled="true">Car form</li> 
+    <li class="breadcrumb-item" aria-disabled="true">Checkout</li>
+    <li class="breadcrumb-item active" aria-current="page">Payment accepted</li>
+  </ol>
+</nav>
+<section id="success" class="hidden">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-9 mt-4 text-center">
+        <img class="mx-auto d-block" src="{{url_for('static', filename='GreenCheck.png')}}" alt="green check mark">
+          <h3 class="mt-4">Thank you!</h3>
+          <h5>
+          We appreciate your business! A confirmation email will be sent to {{ car.owner.email }}.    
+          If you have any questions, please email <a href="mailto:orders@buyacar.com">orders@buyacar.com</a>.
+          </h5>
+          <h6>Your {{ car.make }} {{ car.model}} will be ready for pick-up in 3 working days. Before you can drive your new car, you'll need the 
+            <strong>following documentation:</strong></h6>          
+            <h5>Driving licence</h5>
+            <p>Your <a herf="https://www.webuyanycar.com/guides/car-ownership/uk-driving-licences/" target="_blank">driving licence</a> 
+              proves your legal identity and authorises you to drive the car.</p>            
+            <h5>Insurance policy</h5>
+            <p>You’ll need to have a valid car insurance policy before driving your new car. Some dealers may offer you 
+              ‘driveaway’ insurance (also known as <a href="https://www.webuyanycar.com/guides/car-ownership/temporary-car-insurance/" target="_blank">‘temporary car insurance’</a>),
+               enabling you to arrange longer term insurance cover 
+              at a convenient time. It is always illegal to drive <a href="https://www.webuyanycar.com/guides/car-ownership/driving-without-insurance/" target="_blank">without insurance</a>. 
+              Ideally, you should arrange <a href="https://www.webuyanycar.com/guides/car-ownership/comprehensive-car-insurance/" target="_blank">comprehensive car</a> 
+              insurance - or, at a minimum, <a href="https://www.webuyanycar.com/guides/car-ownership/what-is-third-party-only-insurance/" target="_blank">third-party cover</a>.
+            </p>            
+            <h5>Road tax</h5>
+            <p><a href="https://www.webuyanycar.com/free-car-check/car-tax-check/" target="_blank">Car tax</a> (also known as ‘vehicle excise duty’ [VED]) 
+              is not transferrable between owners. Therefore, you’ll 
+              need to tax your new car yourself before driving it. This can be done via the <a href="https://www.gov.uk/vehicle-tax" target="_blank">gov.uk</a> website, by post - or by calling 
+              the DVLA’s 24/7 phone service on 0300 123 4321. The seller of the car should provide you with a V5C/2 document. 
+              (You’ll need the 12-digit reference number from this slip to tax your vehicle.)</p>            
+            <h5>Payment documents</h5>
+            <p>Print out the confirmation email or have access to our sent confirmation email during the car pick-up process.</p>            
+      </div>
+      <div class="col-lg-3 text-center mt-4">
+        <h5 class="mb-2">Recommended for you:</h5>               
+        <h6 class="mb-4">Car Insurance</h6>        
+        <a href="https://www.gocompare.com/" target="_blank"><img class="rounded mb-3" src="{{ url_for('static', filename='addGo.png')}}" alt="Go Compare logo"></a>
+        <a href="https://www.aviva.co.uk/" target="_blank"><img class="rounded" src="{{ url_for('static', filename='addAviva.png')}}" alt="Aviva logo"></a>         
+        <h6 class="mt-2">Car Finances</h6>
+        <a href="https://www.carfinance247.co.uk/" target="_blank"><img class="rounded" src="{{ url_for('static', filename='addCarFin.png')}}" alt="Car finance 247 logo"></a>        
+        <h6 class="mb-2">Car sales</h6>
+        <a href="https://www.webuyanycar.com/" target="_blank"><img class="rounded" src="{{ url_for('static', filename='addWebuy.png')}}" alt="We buy any car logo"></a>        
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

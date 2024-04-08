@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block title %}
+    Checkout
+{% endblock %}
+{% block content %}
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+  <ol class="breadcrumb mt-4">
+    <li class="breadcrumb-item"><a href="{{ url_for('core.index') }}">Home</a></li>
+    <li class="breadcrumb-item"><a href="{{ url_for('core.cars') }}">Cars</a></li>
+    <li class="breadcrumb-item"><a href="#">Car form</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Checkuot</li>
+  </ol>
+</nav>
+    <div class="container-fluid mt-4 justify-content-center">
+      <div class="row">
+        <div class="col-lg-2 mt-4 mb-4">
+          <div class="card bg-light"> 
+            <img class="card-img-top rounded" src="{{ url_for('static', filename='JeepCherokeeWhite.png')}}" alt="Car image">       
+            <div class="card-body">        
+                <h4 class="card-title">{{ car.make }} {{ car.model }}</h4>
+                <p class="card-text">Car identification number: {{ car.carIndex }}</p>
+            </div>
+          </div>  
+        </div>
+        <div class="col-lg-10 mt-4 mb-4">
+          <!-- Display a payment form -->
+          <form id="payment-form">
+            <div id="payment-element">
+            <!--Stripe.js injects the Payment Element-->
+            </div>
+            <div class='form-control btn  mt-4'>              
+              <span class='amount'><h3>Total: £{{ car.price }}</h3></span>
+            </div>
+            <button class="btn btn-secondary float-end" id="submit">
+              <div class="spinner hidden" id="spinner"></div>
+              <span id="button-text">Pay now »</span>
+            </button>
+            <div id="payment-message" class="hidden"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Link is needed to load payment form from stripe -->
+    <script src="https://js.stripe.com/v3/"></script>
+    <script>
+      // To set global variables for checkuot.js file dynamically from backend
+      var car_price = '{{ car.price *100 }}';  // Stripe uses price as pennies that is why it is needed to multiply by 100 to convert to pounds
+      var car_id = '{{ car.carIndex }}';
+    </script>
+    <!-- Link is needed for file to handle the payment process -->
+    <script src="../static/checkout.js" defer></script>
+  {% endblock %}

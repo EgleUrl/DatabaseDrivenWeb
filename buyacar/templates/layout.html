@@ -1,0 +1,10 @@
+{% macro menu_links(links=None) %}
+  {% if links is none %}{% set links = admin_view.admin.menu_links() %}{% endif %}
+  {% for item in links %}
+    {% if item.is_accessible() and item.is_visible() %}
+      <li>
+        <a href="{{ item.get_url() }}">{{ menu_icon(item) }}{{ item.name }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+{% endmacro %}
