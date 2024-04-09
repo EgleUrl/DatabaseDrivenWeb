@@ -45,7 +45,7 @@ async function handleSubmit(e) {
     elements,
     confirmParams: {
       // Make sure to change this to your payment completion page
-      return_url: `http://127.0.0.1:4242/thankyou/${car_id}`,
+      return_url: `https://database-driven-web-1ec79a188d87.herokuapp.com//thankyou/${car_id}`,
     },
   });
   
