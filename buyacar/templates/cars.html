@@ -99,7 +99,7 @@
               </div>
             <!-- Modal body -->
               <div class="modal-body">
-                <div class="block"><img class="float-start img-fluid object-fit-scale border rounded" src="{{ url_for('static', filename=car.make ~ car.model ~ '.png') }}" alt="{{ car.make }} {{ car.model }}">></div>
+                <div class="block"><img class="float-start img-fluid object-fit-scale border rounded" src="{{ url_for('static', filename=car.make ~ car.model ~ '.png') }}" alt="{{ car.make }} {{ car.model }}"></div>
                 <div class="mt-4 mb-4">
                   <h5><i class="fa-solid fa-registered"></i> {{car.reg }} <i class="fa-solid fa-gauge-high"></i> {{ car.miles }}</h5> 
                   <h5><i class="fa-solid fa-palette"></i> {{ car.colour }}</h5>
